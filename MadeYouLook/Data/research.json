@@ -1,0 +1,395 @@
+{
+  "updated": "2026-10-31",
+  "sources": [
+    {
+      "id": "aad-oily",
+      "title": "How to control oily skin",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/oily-skin",
+      "kind": "Dermatology",
+      "finding": "Choose oil-free, water-based makeup labeled \"oil free\" and \"noncomedogenic\"; products labeled \"matte\" can help reduce shine from oily skin."
+    },
+    {
+      "id": "aad-acne-makeup",
+      "title": "I have acne! Is it okay to wear makeup?",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/diseases/acne/causes/makeup",
+      "kind": "Dermatology",
+      "finding": "Look for one of these terms on the label: oil-free, won't clog pores, or non-comedogenic."
+    },
+    {
+      "id": "aad-dry",
+      "title": "Dermatologists' top tips for relieving dry skin",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin",
+      "kind": "Dermatology",
+      "finding": "Creams add more moisture than lotions; look for ingredients such as glycerin, hyaluronic acid, dimethicone, jojoba oil and shea butter; choose products labeled \"fragrance-free\" (not \"unscented\")."
+    },
+    {
+      "id": "aad-rosacea",
+      "title": "7 rosacea skin care tips dermatologists recommend",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/diseases/rosacea/triggers/tips",
+      "kind": "Dermatology",
+      "finding": "Avoid products with fragrance or alcohol; test makeup first; water-based or powder makeup is less likely to irritate; a green-tinted concealer can camouflage redness; mineral (zinc oxide / titanium dioxide) sunscreens are gentler."
+    },
+    {
+      "id": "ncbi-makeup-therapy",
+      "title": "Makeup Therapy for Scars (Textbook on Scar Management, ch. 49)",
+      "publisher": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK586124/",
+      "kind": "Medical textbook",
+      "finding": "Complementary colors neutralize each other: a green corrector neutralizes redness, a yellow corrector neutralizes purplish tones such as blue-toned dark circles."
+    },
+    {
+      "id": "pmc-dark-circles",
+      "title": "Infraorbital Dark Circles: A Review of the Pathogenesis, Evaluation and Treatment",
+      "publisher": "Journal of Cutaneous and Aesthetic Surgery (PMC4924417)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4924417/",
+      "kind": "Peer-reviewed review",
+      "finding": "Concealers are the least invasive option for dark circles; mineral foundation can blend uneven pigment; light-reflecting \"optical diffusers\" fill depressions and reflect light away from the skin."
+    },
+    {
+      "id": "patrick-ta-blush",
+      "title": "How To Find The Best Blush For Your Skin Tone",
+      "publisher": "Patrick Ta (celebrity makeup artist)",
+      "url": "https://patrickta.com/blogs/articles/how-to-find-the-best-blush-for-your-skin-tone",
+      "kind": "Makeup artist",
+      "finding": "Fair: light pinks, baby roses, soft peaches. Medium: berry, rose, coral, apricot. Tan/olive: deep corals, warm roses, burnt peach, terracotta. Dark/deep: rich berries, deep plums, burnt oranges, vivid corals; sheer light shades can look ashy."
+    },
+    {
+      "id": "zoe-blush",
+      "title": "How To Find The Perfect Blush Shade For Your Skin Tone",
+      "publisher": "The Zoe Report",
+      "url": "https://www.thezoereport.com/beauty/makeup/best-blush-colors-every-skin-tone",
+      "kind": "Beauty editorial",
+      "finding": "Medium to tan skin suits more orange tones; hot pink and fuchsia flatter medium-deep skin; red blush looks striking on deep skin."
+    },
+    {
+      "id": "everygirl-bronzer",
+      "title": "How to Use Bronzer",
+      "publisher": "The Everygirl",
+      "url": "https://theeverygirl.com/how-to-use-bronzer/",
+      "kind": "Beauty editorial",
+      "finding": "Bronzer should be one or two shades darker than your skin tone; darker is easy to overdo, lighter barely shows."
+    },
+    {
+      "id": "masterclass-bronzer",
+      "title": "How to Choose the Right Bronzer",
+      "publisher": "MasterClass",
+      "url": "https://www.masterclass.com/articles/how-to-choose-the-right-bronzer",
+      "kind": "Beauty editorial",
+      "finding": "Pick a shade slightly deeper than your natural skin tone that still works with your neck."
+    },
+    {
+      "id": "ct-lipstick-deep",
+      "title": "Best Lipstick Colours for Tan, Deep and Dark Skin",
+      "publisher": "Charlotte Tilbury",
+      "url": "https://www.charlottetilbury.com/us/secrets/best-lipstick-colours-dark-skin",
+      "kind": "Makeup artist",
+      "finding": "Tan and deep complexions can wear deeper, bolder lip colors without being overpowered; caramel and brown-toned nudes complement deeper skin."
+    },
+    {
+      "id": "beautycrew-lipstick",
+      "title": "The best lipsticks for your skin tone",
+      "publisher": "BeautyCrew",
+      "url": "https://beautycrew.com.au/best-lipsticks-for-your-skin-tone",
+      "kind": "Beauty editorial",
+      "finding": "Fair skin: light pink, coral, peach, nude, dusty red. The darker the skin, the deeper you need to go when selecting a color."
+    }
+  ],
+  "rules": [
+    {
+      "id": "oily",
+      "title": "Oily skin",
+      "skinTypes": [
+        "oily"
+      ],
+      "concerns": [
+        "oily"
+      ],
+      "prefer": [
+        "matte",
+        "oilControl",
+        "oilFree",
+        "nonComedogenic"
+      ],
+      "avoid": [],
+      "reason": "Matte, shine-controlling formula for oily skin",
+      "explanation": "Dermatologists recommend oil-free, non-comedogenic makeup for oily skin, and say matte-labeled products help reduce shine.",
+      "sources": [
+        "aad-oily"
+      ]
+    },
+    {
+      "id": "acne",
+      "title": "Acne / blemishes",
+      "concerns": [
+        "acne"
+      ],
+      "prefer": [
+        "nonComedogenic",
+        "oilFree"
+      ],
+      "avoid": [],
+      "reason": "Labeled oil-free or non-comedogenic, which is less likely to clog pores",
+      "explanation": "The AAD advises people with acne to choose makeup labeled oil-free, won't clog pores, or non-comedogenic.",
+      "sources": [
+        "aad-acne-makeup",
+        "aad-oily"
+      ]
+    },
+    {
+      "id": "dry",
+      "title": "Dry skin",
+      "skinTypes": [
+        "dry"
+      ],
+      "concerns": [
+        "dryness"
+      ],
+      "prefer": [
+        "hydrating"
+      ],
+      "avoid": [
+        "oilControl"
+      ],
+      "reason": "Hydrating formula for dry skin",
+      "explanation": "For dry skin, dermatologists recommend richer, cream-based products with hydrating ingredients such as hyaluronic acid, glycerin, dimethicone and shea butter. Oil-absorbing (oil-control) formulas are designed for oily skin, so they're ranked lower; this part is the app's inference, not a direct dermatology recommendation.",
+      "sources": [
+        "aad-dry"
+      ]
+    },
+    {
+      "id": "sensitive",
+      "title": "Sensitive skin",
+      "skinTypes": [
+        "sensitive"
+      ],
+      "prefer": [
+        "fragranceFree",
+        "mineral",
+        "powder"
+      ],
+      "avoid": [
+        "waterproof"
+      ],
+      "reason": "Gentle choice for sensitive skin (fragrance-free, mineral or powder)",
+      "explanation": "Dermatologists suggest avoiding fragrance, choosing water-based or powder makeup, skipping waterproof formulas that need harsh removers, and favoring mineral ingredients.",
+      "sources": [
+        "aad-rosacea",
+        "aad-dry"
+      ]
+    },
+    {
+      "id": "redness",
+      "title": "Redness",
+      "concerns": [
+        "redness"
+      ],
+      "prefer": [
+        "colorCorrecting",
+        "mineral",
+        "fragranceFree"
+      ],
+      "avoid": [],
+      "reason": "Helps camouflage redness",
+      "explanation": "Green-tinted correctors neutralize red tones (complementary colors), and gentle fragrance-free, mineral formulas are less likely to trigger flushing.",
+      "sources": [
+        "aad-rosacea",
+        "ncbi-makeup-therapy"
+      ]
+    },
+    {
+      "id": "dark-circles",
+      "title": "Dark circles",
+      "concerns": [
+        "darkCircles"
+      ],
+      "categories": [
+        "face"
+      ],
+      "prefer": [
+        "brightening",
+        "colorCorrecting"
+      ],
+      "avoid": [],
+      "reason": "Brightening coverage for dark circles",
+      "explanation": "A peer-reviewed review names concealers as the least invasive fix for dark circles, with light-reflecting particles to brighten; yellow or peach correctors neutralize bluish tones.",
+      "sources": [
+        "pmc-dark-circles",
+        "ncbi-makeup-therapy"
+      ]
+    },
+    {
+      "id": "uneven-tone",
+      "title": "Uneven skin tone",
+      "concerns": [
+        "unevenTone"
+      ],
+      "categories": [
+        "face"
+      ],
+      "prefer": [
+        "buildable",
+        "mineral",
+        "colorCorrecting"
+      ],
+      "avoid": [],
+      "reason": "Buildable coverage to even out skin tone",
+      "explanation": "Buildable or mineral foundation can blend areas of uneven pigment, and color correctors neutralize specific tones before foundation.",
+      "sources": [
+        "pmc-dark-circles",
+        "ncbi-makeup-therapy"
+      ]
+    },
+    {
+      "id": "fine-lines",
+      "title": "Fine lines",
+      "concerns": [
+        "fineLines"
+      ],
+      "prefer": [
+        "hydrating",
+        "brightening",
+        "blurring"
+      ],
+      "avoid": [],
+      "reason": "Hydrating, light-diffusing formula that softens fine lines",
+      "explanation": "Hydrating ingredients plump the look of skin, and light-reflecting (optical-diffusing) particles fill fine depressions and reflect light away from them.",
+      "sources": [
+        "aad-dry",
+        "pmc-dark-circles"
+      ]
+    },
+    {
+      "id": "texture",
+      "title": "Texture / pores",
+      "concerns": [
+        "texture"
+      ],
+      "prefer": [
+        "blurring"
+      ],
+      "avoid": [],
+      "reason": "Blurring finish for texture and pores",
+      "explanation": "Optical-diffusing particles of different sizes fill depressions in the skin and scatter light, visually smoothing texture.",
+      "sources": [
+        "pmc-dark-circles"
+      ]
+    }
+  ],
+  "shadeGuides": {
+    "blush": {
+      "sources": [
+        "patrick-ta-blush",
+        "zoe-blush"
+      ],
+      "tones": {
+        "fair": {
+          "range": [
+            0.58,
+            0.85
+          ],
+          "advice": "Light pinks, baby roses and soft peaches; deep berries can look harsh."
+        },
+        "light": {
+          "range": [
+            0.52,
+            0.8
+          ],
+          "advice": "Soft pinks, peach and apricot add warmth without overwhelming."
+        },
+        "lightMedium": {
+          "range": [
+            0.42,
+            0.68
+          ],
+          "advice": "Roses, berries, corals and apricot show up best."
+        },
+        "tan": {
+          "range": [
+            0.32,
+            0.58
+          ],
+          "advice": "Deep corals, warm roses, burnt peach and terracotta; skip chalky pastels."
+        },
+        "deep": {
+          "range": [
+            0.22,
+            0.48
+          ],
+          "advice": "Rich berries, deep plums, burnt orange and vivid corals; sheer light shades can look ashy."
+        },
+        "deepDark": {
+          "range": [
+            0.14,
+            0.42
+          ],
+          "advice": "Deep fuchsia, wine, brick and warm plum pop without looking overdone."
+        }
+      }
+    },
+    "lips": {
+      "sources": [
+        "beautycrew-lipstick",
+        "ct-lipstick-deep"
+      ],
+      "tones": {
+        "fair": {
+          "range": [
+            0.45,
+            0.8
+          ],
+          "advice": "Light pink, peach, coral and soft nudes."
+        },
+        "light": {
+          "range": [
+            0.4,
+            0.75
+          ],
+          "advice": "Pinks, corals, rosy nudes and dusty reds."
+        },
+        "lightMedium": {
+          "range": [
+            0.32,
+            0.65
+          ],
+          "advice": "Rosy nudes, roses, berries and classic reds."
+        },
+        "tan": {
+          "range": [
+            0.25,
+            0.55
+          ],
+          "advice": "Coral, deep pink, bright red and caramel nudes."
+        },
+        "deep": {
+          "range": [
+            0.15,
+            0.45
+          ],
+          "advice": "Rich berries, plums, browns and deep reds; very pale shades can look ashy."
+        },
+        "deepDark": {
+          "range": [
+            0.08,
+            0.4
+          ],
+          "advice": "Cocoa browns, mahogany, espresso and deep berries."
+        }
+      }
+    },
+    "bronzer": {
+      "sources": [
+        "everygirl-bronzer",
+        "masterclass-bronzer"
+      ],
+      "offset": [
+        0.06,
+        0.18
+      ],
+      "advice": "Pick a bronzer one to two shades deeper than your skin; much darker is easy to overdo."
+    }
+  }
+}

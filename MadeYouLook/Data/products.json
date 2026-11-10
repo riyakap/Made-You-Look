@@ -1,0 +1,4449 @@
+[
+  {
+    "id": "rare-soft-pinch",
+    "brand": "Rare Beauty",
+    "name": "Soft Pinch Liquid Blush",
+    "cardName": "Soft Pinch Blush",
+    "category": "cheeks",
+    "price": 23.0,
+    "rating": 4.8,
+    "reviewCount": 12300,
+    "imageName": "product_rare_soft_pinch",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "Hope",
+        "detail": "Neutral Pink",
+        "hex": "A85F69"
+      },
+      {
+        "name": "Faith",
+        "detail": "Soft Peach",
+        "hex": "D8B5A9"
+      },
+      {
+        "name": "Bliss",
+        "detail": "Nude Pink",
+        "hex": "C4958A"
+      },
+      {
+        "name": "Grace",
+        "detail": "Spicy Terracotta",
+        "hex": "A9533F"
+      },
+      {
+        "name": "Lucky",
+        "detail": "Soft Mauve",
+        "hex": "D9B2A5"
+      },
+      {
+        "name": "Joy",
+        "detail": "Muted Peach",
+        "hex": "D3A28E"
+      },
+      {
+        "name": "Encourage",
+        "detail": "Berry",
+        "hex": "7F5367"
+      }
+    ],
+    "concerns": [
+      "unevenTone",
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "light"
+    ],
+    "details": "A weightless, long-lasting liquid blush that blends and builds beautifully for a soft, healthy flush. A little goes a long way.",
+    "howToUse": "Dot one to two dots onto cheeks and blend with fingertips or a brush.",
+    "attributes": [
+      "cream"
+    ]
+  },
+  {
+    "id": "elf-halo-glow",
+    "brand": "e.l.f.",
+    "name": "Halo Glow Liquid Filter",
+    "cardName": "Halo Glow Liquid Filter",
+    "category": "face",
+    "price": 14.0,
+    "rating": 4.7,
+    "reviewCount": 8100,
+    "imageName": "product_elf_halo_glow",
+    "symbol": "sun.max.fill",
+    "shades": [
+      {
+        "name": "1 Fair",
+        "detail": "Neutral",
+        "hex": "F0D2BF",
+        "tone": "fair"
+      },
+      {
+        "name": "2 Fair / Light",
+        "detail": "Neutral",
+        "hex": "E6BFA2",
+        "tone": "light"
+      },
+      {
+        "name": "3 Light Medium",
+        "detail": "Warm",
+        "hex": "D6A47F",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "5 Tan",
+        "detail": "Golden",
+        "hex": "B77D56",
+        "tone": "tan"
+      },
+      {
+        "name": "7 Deep",
+        "detail": "Warm",
+        "hex": "83502F",
+        "tone": "deep"
+      },
+      {
+        "name": "8 Rich",
+        "detail": "Neutral",
+        "hex": "50301F",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "unevenTone",
+      "fineLines"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "light"
+    ],
+    "details": "A complexion booster that gives skin a soft-focus, glowing finish. Wear alone, under foundation, or mixed in.",
+    "howToUse": "Apply all over the face or to high points for a lit-from-within glow.",
+    "attributes": [
+      "blurring",
+      "cream",
+      "luminous"
+    ]
+  },
+  {
+    "id": "mario-surrealskin",
+    "brand": "Makeup by Mario",
+    "name": "SurrealSkin Awakening Concealer",
+    "cardName": "SurrealSkin Concealer",
+    "category": "face",
+    "price": 28.0,
+    "rating": 4.9,
+    "reviewCount": 10100,
+    "imageName": "product_mario_surrealskin",
+    "symbol": "pencil.tip",
+    "shades": [
+      {
+        "name": "110 Fair",
+        "detail": "Neutral",
+        "hex": "F2D6C4",
+        "tone": "fair"
+      },
+      {
+        "name": "220 Neutral Light",
+        "detail": "Neutral",
+        "hex": "E8C3A6",
+        "tone": "light"
+      },
+      {
+        "name": "330 Light Medium",
+        "detail": "Warm",
+        "hex": "D8A783",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "440 Tan",
+        "detail": "Golden",
+        "hex": "BB8259",
+        "tone": "tan"
+      },
+      {
+        "name": "550 Deep",
+        "detail": "Warm",
+        "hex": "895434",
+        "tone": "deep"
+      },
+      {
+        "name": "660 Rich",
+        "detail": "Neutral",
+        "hex": "553322",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "darkCircles",
+      "acne",
+      "redness",
+      "unevenTone"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "A creamy, crease-resistant concealer with buildable coverage that brightens and smooths.",
+    "howToUse": "Apply under the eyes and over blemishes, then tap to blend.",
+    "attributes": [
+      "brightening",
+      "buildable",
+      "cream"
+    ]
+  },
+  {
+    "id": "ct-lip-cheat",
+    "brand": "Charlotte Tilbury",
+    "name": "Lip Cheat Lip Liner",
+    "cardName": "Lip Cheat",
+    "category": "lips",
+    "price": 25.0,
+    "rating": 5.0,
+    "reviewCount": 11500,
+    "imageName": "product_ct_lip_cheat",
+    "symbol": "pencil",
+    "shades": [
+      {
+        "name": "Pillow Talk",
+        "detail": "Nude Pink",
+        "hex": "B97A73"
+      },
+      {
+        "name": "Iconic Nude",
+        "detail": "Warm Nude",
+        "hex": "A9725E"
+      },
+      {
+        "name": "Walk of No Shame",
+        "detail": "Berry Red",
+        "hex": "8E3A43"
+      },
+      {
+        "name": "Sunset",
+        "detail": "Coral",
+        "hex": "C8644F"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "natural"
+    ],
+    "details": "A cult-favorite lip liner that reshapes and resizes lips for a fuller-looking pout.",
+    "howToUse": "Line lips just outside the natural line, then fill in for long wear.",
+    "attributes": []
+  },
+  {
+    "id": "nars-radiant-creamy",
+    "brand": "NARS",
+    "name": "Radiant Creamy Concealer",
+    "cardName": "Radiant Creamy Concealer",
+    "category": "face",
+    "price": 32.0,
+    "rating": 4.6,
+    "reviewCount": 9400,
+    "imageName": "product_nars_concealer",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "110 Fair",
+        "detail": "Neutral",
+        "hex": "F2D6C4",
+        "tone": "fair"
+      },
+      {
+        "name": "220 Neutral Light",
+        "detail": "Neutral",
+        "hex": "E8C3A6",
+        "tone": "light"
+      },
+      {
+        "name": "330 Light Medium",
+        "detail": "Warm",
+        "hex": "D8A783",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "440 Tan",
+        "detail": "Golden",
+        "hex": "BB8259",
+        "tone": "tan"
+      },
+      {
+        "name": "550 Deep",
+        "detail": "Warm",
+        "hex": "895434",
+        "tone": "deep"
+      },
+      {
+        "name": "660 Rich",
+        "detail": "Neutral",
+        "hex": "553322",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "darkCircles",
+      "redness",
+      "acne"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "Medium-to-full, buildable coverage with a natural radiant finish that lasts up to 16 hours.",
+    "howToUse": "Dot where needed and blend with a damp sponge.",
+    "attributes": [
+      "brightening",
+      "buildable",
+      "cream",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "fenty-gloss-bomb",
+    "brand": "Fenty Beauty",
+    "name": "Gloss Bomb Universal Lip Luminizer",
+    "cardName": "Gloss Bomb",
+    "category": "lips",
+    "price": 22.0,
+    "rating": 4.7,
+    "reviewCount": 7200,
+    "imageName": "product_fenty_gloss_bomb",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Pillow Talk",
+        "detail": "Nude Pink",
+        "hex": "B97A73"
+      },
+      {
+        "name": "Iconic Nude",
+        "detail": "Warm Nude",
+        "hex": "A9725E"
+      },
+      {
+        "name": "Walk of No Shame",
+        "detail": "Berry Red",
+        "hex": "8E3A43"
+      },
+      {
+        "name": "Sunset",
+        "detail": "Coral",
+        "hex": "C8644F"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "bronzy",
+      "light"
+    ],
+    "details": "An ultra-shiny, non-sticky gloss that flatters every skin tone.",
+    "howToUse": "Swipe over bare lips or on top of liner.",
+    "attributes": [
+      "cream",
+      "luminous"
+    ]
+  },
+  {
+    "id": "benefit-hoola",
+    "brand": "Benefit",
+    "name": "Hoola Matte Bronzer",
+    "cardName": "Hoola Bronzer",
+    "category": "cheeks",
+    "price": 34.0,
+    "rating": 4.5,
+    "reviewCount": 6800,
+    "imageName": "product_benefit_hoola",
+    "symbol": "sun.haze.fill",
+    "shades": [
+      {
+        "name": "Light",
+        "detail": "Soft Bronze",
+        "hex": "C48E68",
+        "tone": "light"
+      },
+      {
+        "name": "Medium",
+        "detail": "Warm Bronze",
+        "hex": "A46B45",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "Tan",
+        "detail": "Golden Bronze",
+        "hex": "8A5634",
+        "tone": "tan"
+      },
+      {
+        "name": "Deep",
+        "detail": "Rich Bronze",
+        "hex": "5F3A24",
+        "tone": "deep"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "unevenTone"
+    ],
+    "styles": [
+      "bronzy",
+      "fullGlam"
+    ],
+    "details": "A matte bronzer for a natural-looking, sun-kissed finish with no shimmer.",
+    "howToUse": "Sweep along cheekbones, temples, and jawline.",
+    "attributes": [
+      "matte",
+      "powder"
+    ]
+  },
+  {
+    "id": "maybelline-sky-high",
+    "brand": "Maybelline",
+    "name": "Lash Sensational Sky High Mascara",
+    "cardName": "Sky High Mascara",
+    "category": "eyes",
+    "price": 13.0,
+    "rating": 4.6,
+    "reviewCount": 15200,
+    "imageName": "product_maybelline_sky_high",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "Very Black",
+        "detail": "Black",
+        "hex": "1E1A1A"
+      },
+      {
+        "name": "Brown",
+        "detail": "Soft Brown",
+        "hex": "4A3328"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "A lengthening, volumizing mascara with a flexible brush that reaches every lash.",
+    "howToUse": "Wiggle from root to tip and layer for more drama.",
+    "attributes": []
+  },
+  {
+    "id": "huda-nude-palette",
+    "brand": "Huda Beauty",
+    "name": "Nude Obsessions Eyeshadow Palette",
+    "cardName": "Nude Obsessions Palette",
+    "category": "eyes",
+    "price": 29.0,
+    "rating": 4.4,
+    "reviewCount": 4900,
+    "imageName": "product_huda_palette",
+    "symbol": "square.grid.3x3.fill",
+    "shades": [
+      {
+        "name": "Nude Edit",
+        "detail": "Neutrals",
+        "hex": "B98C76"
+      },
+      {
+        "name": "Smoky",
+        "detail": "Cool Browns",
+        "hex": "5A4642"
+      },
+      {
+        "name": "Rose Gold",
+        "detail": "Warm Pinks",
+        "hex": "B9776F"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark",
+      "bronzy"
+    ],
+    "details": "Nine richly pigmented mattes and shimmers in a travel-friendly palette.",
+    "howToUse": "Use the lighter shades all over the lid, deeper shades in the crease.",
+    "attributes": [
+      "luminous"
+    ]
+  },
+  {
+    "id": "glossier-cloud-paint",
+    "brand": "Glossier",
+    "name": "Cloud Paint Gel-Cream Blush",
+    "cardName": "Cloud Paint",
+    "category": "cheeks",
+    "price": 22.0,
+    "rating": 4.5,
+    "reviewCount": 5600,
+    "imageName": "product_glossier_cloud_paint",
+    "symbol": "cloud.fill",
+    "shades": [
+      {
+        "name": "Hope",
+        "detail": "Neutral Pink",
+        "hex": "A85F69"
+      },
+      {
+        "name": "Faith",
+        "detail": "Soft Peach",
+        "hex": "D8B5A9"
+      },
+      {
+        "name": "Bliss",
+        "detail": "Nude Pink",
+        "hex": "C4958A"
+      },
+      {
+        "name": "Grace",
+        "detail": "Spicy Terracotta",
+        "hex": "A9533F"
+      },
+      {
+        "name": "Lucky",
+        "detail": "Soft Mauve",
+        "hex": "D9B2A5"
+      },
+      {
+        "name": "Joy",
+        "detail": "Muted Peach",
+        "hex": "D3A28E"
+      },
+      {
+        "name": "Encourage",
+        "detail": "Berry",
+        "hex": "7F5367"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "fineLines"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "A seamless, buildable gel-cream blush for a natural, flushed look.",
+    "howToUse": "Tap onto the apples of your cheeks and blend upward.",
+    "attributes": [
+      "buildable",
+      "cream"
+    ]
+  },
+  {
+    "id": "laura-mercier-powder",
+    "brand": "Laura Mercier",
+    "name": "Translucent Loose Setting Powder",
+    "cardName": "Setting Powder",
+    "category": "face",
+    "price": 43.0,
+    "rating": 4.7,
+    "reviewCount": 13000,
+    "imageName": "product_laura_mercier_powder",
+    "symbol": "circle.dotted",
+    "shades": [
+      {
+        "name": "1 Fair",
+        "detail": "Neutral",
+        "hex": "F0D2BF",
+        "tone": "fair"
+      },
+      {
+        "name": "2 Fair / Light",
+        "detail": "Neutral",
+        "hex": "E6BFA2",
+        "tone": "light"
+      },
+      {
+        "name": "3 Light Medium",
+        "detail": "Warm",
+        "hex": "D6A47F",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "5 Tan",
+        "detail": "Golden",
+        "hex": "B77D56",
+        "tone": "tan"
+      },
+      {
+        "name": "7 Deep",
+        "detail": "Warm",
+        "hex": "83502F",
+        "tone": "deep"
+      },
+      {
+        "name": "8 Rich",
+        "detail": "Neutral",
+        "hex": "50301F",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "texture",
+      "acne"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "A finely milled powder that sets makeup for up to 16 hours and blurs pores.",
+    "howToUse": "Press into the T-zone and under-eyes with a puff, then dust off.",
+    "attributes": [
+      "blurring",
+      "longWear",
+      "oilControl",
+      "powder"
+    ]
+  },
+  {
+    "id": "la-roche-tinted",
+    "brand": "La Roche-Posay",
+    "name": "Anthelios Tinted Mineral SPF 50",
+    "cardName": "Tinted Mineral SPF",
+    "category": "face",
+    "price": 37.0,
+    "rating": 4.6,
+    "reviewCount": 3800,
+    "imageName": "product_lrp_tinted_spf",
+    "symbol": "sun.min.fill",
+    "shades": [
+      {
+        "name": "1 Fair",
+        "detail": "Neutral",
+        "hex": "F0D2BF",
+        "tone": "fair"
+      },
+      {
+        "name": "2 Fair / Light",
+        "detail": "Neutral",
+        "hex": "E6BFA2",
+        "tone": "light"
+      },
+      {
+        "name": "3 Light Medium",
+        "detail": "Warm",
+        "hex": "D6A47F",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "5 Tan",
+        "detail": "Golden",
+        "hex": "B77D56",
+        "tone": "tan"
+      },
+      {
+        "name": "7 Deep",
+        "detail": "Warm",
+        "hex": "83502F",
+        "tone": "deep"
+      },
+      {
+        "name": "8 Rich",
+        "detail": "Neutral",
+        "hex": "50301F",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "redness",
+      "acne",
+      "unevenTone",
+      "fineLines"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "A sheer, universally tinted mineral sunscreen for sensitive skin.",
+    "howToUse": "Apply generously as the last step of skincare, 15 minutes before sun.",
+    "attributes": [
+      "fragranceFree",
+      "mineral",
+      "nonComedogenic",
+      "spf"
+    ]
+  },
+  {
+    "id": "nars-light-reflecting",
+    "brand": "NARS",
+    "name": "Light Reflecting Skin Improving Medium Coverage Foundation with Cacao Peptides",
+    "cardName": "Light Reflecting Foundation",
+    "category": "face",
+    "price": 55.0,
+    "rating": 4.1,
+    "reviewCount": 3112,
+    "imageName": "product_nars-light-reflecting",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "Siberia",
+        "detail": "",
+        "hex": "FBE5C5",
+        "tone": "fair"
+      },
+      {
+        "name": "Yulong",
+        "detail": "",
+        "hex": "FEE2D5",
+        "tone": "fair"
+      },
+      {
+        "name": "Lima",
+        "detail": "",
+        "hex": "F8D3B0",
+        "tone": "light"
+      },
+      {
+        "name": "Bruges",
+        "detail": "",
+        "hex": "F8D6A6",
+        "tone": "fair"
+      },
+      {
+        "name": "Fiji",
+        "detail": "",
+        "hex": "E7B788",
+        "tone": "light"
+      },
+      {
+        "name": "Patagonia",
+        "detail": "",
+        "hex": "E4B390",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "Lanai",
+        "detail": "",
+        "hex": "E7B38C",
+        "tone": "light"
+      },
+      {
+        "name": "Stromboli",
+        "detail": "",
+        "hex": "E3AF76",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "Barcelona",
+        "detail": "",
+        "hex": "DAA97E",
+        "tone": "tan"
+      },
+      {
+        "name": "Aruba",
+        "detail": "",
+        "hex": "CE9967",
+        "tone": "tan"
+      },
+      {
+        "name": "Tahoe",
+        "detail": "",
+        "hex": "D4975F",
+        "tone": "tan"
+      },
+      {
+        "name": "Caracas",
+        "detail": "",
+        "hex": "C27944",
+        "tone": "deep"
+      },
+      {
+        "name": "Alexandria",
+        "detail": "",
+        "hex": "9D5E36",
+        "tone": "deep"
+      },
+      {
+        "name": "La Serena",
+        "detail": "",
+        "hex": "AB5F3F",
+        "tone": "deep"
+      },
+      {
+        "name": "Timaru",
+        "detail": "",
+        "hex": "683724",
+        "tone": "deepDark"
+      },
+      {
+        "name": "Anguilla",
+        "detail": "",
+        "hex": "593927",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "unevenTone",
+      "fineLines",
+      "dryness",
+      "texture"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "light"
+    ],
+    "details": "An advanced makeup-skincare-hybrid foundation with a natural finish that quickly blurs and smooths while visibly improving skin’s clarity over time.",
+    "howToUse": "Prepare skin for smooth makeup application with Radiance Primer Lift cap straight up (do not twist) to expose pump, then dispense 1-2 pumps of Light Reflecting Foundation and warm with fingertips",
+    "source": "https://www.sephora.com/product/P479338",
+    "attributes": [
+      "blurring",
+      "brightening",
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "toofaced-born-this-way",
+    "brand": "Too Faced",
+    "name": "Born This Way Undetectable Medium-To-Full Coverage Foundation",
+    "cardName": "Born This Way Foundation",
+    "category": "face",
+    "price": 49.0,
+    "rating": 4.4,
+    "reviewCount": 1555,
+    "imageName": "product_toofaced-born-this-way",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "Chai",
+        "detail": "",
+        "hex": "925D39",
+        "tone": "deep"
+      },
+      {
+        "name": "Spiced Rum",
+        "detail": "",
+        "hex": "8E5836",
+        "tone": "deep"
+      },
+      {
+        "name": "Tiramisu",
+        "detail": "",
+        "hex": "805231",
+        "tone": "deep"
+      },
+      {
+        "name": "Sable",
+        "detail": "",
+        "hex": "78482B",
+        "tone": "deepDark"
+      },
+      {
+        "name": "Ganache",
+        "detail": "",
+        "hex": "66412F",
+        "tone": "deepDark"
+      },
+      {
+        "name": "Honey",
+        "detail": "",
+        "hex": "D89D6F",
+        "tone": "tan"
+      },
+      {
+        "name": "Mocha",
+        "detail": "",
+        "hex": "C3845D",
+        "tone": "tan"
+      },
+      {
+        "name": "Maple",
+        "detail": "",
+        "hex": "AF7447",
+        "tone": "tan"
+      },
+      {
+        "name": "Nude",
+        "detail": "",
+        "hex": "EDBE94",
+        "tone": "light"
+      },
+      {
+        "name": "Warm Nude",
+        "detail": "",
+        "hex": "E9BB98",
+        "tone": "light"
+      },
+      {
+        "name": "Light Beige",
+        "detail": "",
+        "hex": "E5B486",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "Warm Beige",
+        "detail": "",
+        "hex": "DAA778",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "Swan",
+        "detail": "",
+        "hex": "FCD8B6",
+        "tone": "fair"
+      },
+      {
+        "name": "Ivory",
+        "detail": "",
+        "hex": "FED3AA",
+        "tone": "fair"
+      },
+      {
+        "name": "Seashell",
+        "detail": "",
+        "hex": "FFD1B2",
+        "tone": "fair"
+      },
+      {
+        "name": "Porcelain",
+        "detail": "",
+        "hex": "F2C8A2",
+        "tone": "light"
+      }
+    ],
+    "concerns": [
+      "unevenTone",
+      "redness",
+      "acne"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "An undetectable foundation formula that delivers up to 24-hour hydration and color-true wear that’s transfer-resistant, waterproof, and sweat- and humidity-proof.",
+    "howToUse": "Apply with fingertips or a brush. Start at center of the face and work outward.",
+    "source": "https://www.sephora.com/product/P517843",
+    "attributes": [
+      "blurring",
+      "cream",
+      "hydrating",
+      "longWear",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "rare-true-to-myself",
+    "brand": "Rare Beauty",
+    "name": "True to Myself Natural Matte Longwear Foundation",
+    "cardName": "True to Myself Foundation",
+    "category": "face",
+    "price": 38.0,
+    "rating": 4.7,
+    "reviewCount": 2316,
+    "imageName": "product_rare-true-to-myself",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "1 Fair Neutral",
+        "detail": "",
+        "hex": "F0D4C7",
+        "tone": "fair"
+      },
+      {
+        "name": "4 Fair Neutral",
+        "detail": "",
+        "hex": "EFD0BC",
+        "tone": "fair"
+      },
+      {
+        "name": "7 Light Warm",
+        "detail": "",
+        "hex": "F4D5B8",
+        "tone": "fair"
+      },
+      {
+        "name": "10 Light Warm",
+        "detail": "",
+        "hex": "F7C799",
+        "tone": "light"
+      },
+      {
+        "name": "13 Light Neutral",
+        "detail": "",
+        "hex": "FCC29D",
+        "tone": "light"
+      },
+      {
+        "name": "16 Light Medium Neutral",
+        "detail": "",
+        "hex": "F2B684",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "19 Light Medium Warm",
+        "detail": "",
+        "hex": "EFB882",
+        "tone": "light"
+      },
+      {
+        "name": "22 Medium Cool",
+        "detail": "",
+        "hex": "ECA684",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "25 Medium Neutral",
+        "detail": "",
+        "hex": "EEA570",
+        "tone": "tan"
+      },
+      {
+        "name": "28 Medium Cool",
+        "detail": "",
+        "hex": "DC996E",
+        "tone": "tan"
+      },
+      {
+        "name": "31 Medium Deep Neutral",
+        "detail": "",
+        "hex": "D08659",
+        "tone": "deep"
+      },
+      {
+        "name": "34 Medium Deep Warm",
+        "detail": "",
+        "hex": "D28750",
+        "tone": "tan"
+      },
+      {
+        "name": "37 Warm Deep Cool",
+        "detail": "",
+        "hex": "BF6E41",
+        "tone": "deep"
+      },
+      {
+        "name": "40 Deep Neutral",
+        "detail": "",
+        "hex": "B2673F",
+        "tone": "deep"
+      },
+      {
+        "name": "43 Deep Cool",
+        "detail": "",
+        "hex": "965134",
+        "tone": "deepDark"
+      },
+      {
+        "name": "46 Deep Neutral",
+        "detail": "",
+        "hex": "713415",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "unevenTone",
+      "texture"
+    ],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "A self-priming and self-setting foundation with breathable, medium-to-full coverage and a natural-matte finish that brings out the best in your skin.",
+    "howToUse": "The easy-control pump lets you customize your coverage: Start with half a pump for medium, or a full pump for full. Starting with half a pump, dispense foundation onto the back of your hand or directly onto your tool of choice (Rare Beauty by Selena Gomez recommends the Liquid Touch Foundation Brush or Soft Touch…",
+    "source": "https://www.sephora.com/product/P521996",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "longWear",
+      "matte"
+    ]
+  },
+  {
+    "id": "huda-easy-bake",
+    "brand": "Huda Beauty",
+    "name": "Easy Bake Blurring Loose Baking & Setting Powder",
+    "cardName": "Easy Bake Powder",
+    "category": "face",
+    "price": 42.0,
+    "rating": 4.6,
+    "reviewCount": 14353,
+    "imageName": "product_huda-easy-bake",
+    "symbol": "circle.dotted",
+    "shades": [
+      {
+        "name": "Cherry Lilac",
+        "detail": "",
+        "hex": "F8DEEA"
+      },
+      {
+        "name": "Pink Ube",
+        "detail": "",
+        "hex": "F3C4CF"
+      },
+      {
+        "name": "Matcha Milk Cake",
+        "detail": "",
+        "hex": "DBF5C6"
+      },
+      {
+        "name": "Sugar Cookie",
+        "detail": "",
+        "hex": "EAEAEA"
+      },
+      {
+        "name": "Pound Cake",
+        "detail": "",
+        "hex": "F7D8BD"
+      },
+      {
+        "name": "Cupcake",
+        "detail": "",
+        "hex": "FAD8C2"
+      },
+      {
+        "name": "Peach Pie",
+        "detail": "",
+        "hex": "F6D1B9"
+      },
+      {
+        "name": "Banana Bread",
+        "detail": "",
+        "hex": "FAE9CB"
+      },
+      {
+        "name": "Blondie",
+        "detail": "",
+        "hex": "E7B47B"
+      },
+      {
+        "name": "Kunafa",
+        "detail": "",
+        "hex": "F9D9A0"
+      },
+      {
+        "name": "Cinnamon Bun",
+        "detail": "",
+        "hex": "CF8757"
+      },
+      {
+        "name": "Ube Birthday Cake",
+        "detail": "",
+        "hex": "F7B8D3"
+      },
+      {
+        "name": "Cherry Blossom",
+        "detail": "",
+        "hex": "FCE2DC"
+      },
+      {
+        "name": "Pound Cake",
+        "detail": "",
+        "hex": "FBECDC"
+      },
+      {
+        "name": "Peach Pie",
+        "detail": "",
+        "hex": "F6DAC6"
+      },
+      {
+        "name": "Banana Bread",
+        "detail": "",
+        "hex": "F8E1C7"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "texture",
+      "fineLines"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "A lightly pigmented, ultra-brightening setting powder that bakes & sets, blurs fine lines & pores, and sets makeup for 18hrs with an airbrush finish.",
+    "howToUse": "BAKE: After applying #FauxFilter Concealer, apply a generous layer of powder under the eye, on the T-zone, laugh lines, outer corners of the mouth, and chin. Let the powder sit for 3-5 minutes before dusting off excess.",
+    "source": "https://www.sephora.com/product/P433402",
+    "attributes": [
+      "blurring",
+      "brightening",
+      "cream",
+      "hydrating",
+      "longWear",
+      "oilControl",
+      "powder"
+    ]
+  },
+  {
+    "id": "fenty-pro-filtr",
+    "brand": "Fenty Beauty",
+    "name": "Pro Filt’r Soft Matte Longwear Liquid Foundation",
+    "cardName": "Pro Filt'r Foundation",
+    "category": "face",
+    "price": 40.0,
+    "rating": 4.0,
+    "reviewCount": 17425,
+    "imageName": "product_fenty-pro-filtr",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "498",
+        "detail": "",
+        "hex": "4D2C19",
+        "tone": "deepDark"
+      },
+      {
+        "name": "485",
+        "detail": "",
+        "hex": "5C2D1D",
+        "tone": "deepDark"
+      },
+      {
+        "name": "450",
+        "detail": "",
+        "hex": "835231",
+        "tone": "deep"
+      },
+      {
+        "name": "430",
+        "detail": "",
+        "hex": "8C502B",
+        "tone": "deep"
+      },
+      {
+        "name": "410",
+        "detail": "",
+        "hex": "9F5F2F",
+        "tone": "deep"
+      },
+      {
+        "name": "385",
+        "detail": "",
+        "hex": "AA6B38",
+        "tone": "tan"
+      },
+      {
+        "name": "345",
+        "detail": "",
+        "hex": "C08247",
+        "tone": "tan"
+      },
+      {
+        "name": "315",
+        "detail": "",
+        "hex": "D3925C",
+        "tone": "tan"
+      },
+      {
+        "name": "295",
+        "detail": "",
+        "hex": "D9A573",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "265",
+        "detail": "",
+        "hex": "D5A97C",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "240",
+        "detail": "",
+        "hex": "DAA981",
+        "tone": "light"
+      },
+      {
+        "name": "220",
+        "detail": "",
+        "hex": "EEBA93",
+        "tone": "light"
+      },
+      {
+        "name": "190",
+        "detail": "",
+        "hex": "F1C598",
+        "tone": "fair"
+      },
+      {
+        "name": "170",
+        "detail": "",
+        "hex": "ECC0A5",
+        "tone": "fair"
+      },
+      {
+        "name": "140",
+        "detail": "",
+        "hex": "F3D4B7",
+        "tone": "fair"
+      },
+      {
+        "name": "125",
+        "detail": "",
+        "hex": "E2BA96",
+        "tone": "light"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "acne",
+      "texture",
+      "unevenTone"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "bronzy"
+    ],
+    "details": "A soft-matte, long-wearing foundation with climate-adaptive technology to fight heat, sweat, and shine—available in a wide range of shades.",
+    "howToUse": "Prep skin with Fenty Skin&rsquo;s Hydra Vizor Invisible Moisturizer Broad Spectrum SPF 30 Sunscreen with Niacinamide (sold separately) before applying, especially if your skin is dry. Always shake before use to activate.",
+    "source": "https://www.sephora.com/product/P87985432",
+    "attributes": [
+      "blurring",
+      "buildable",
+      "cream",
+      "longWear",
+      "matte"
+    ]
+  },
+  {
+    "id": "tarte-shape-tape",
+    "brand": "Tarte",
+    "name": "shape tape full coverage matte concealer",
+    "cardName": "Shape Tape Concealer",
+    "category": "face",
+    "price": 32.0,
+    "rating": 4.2,
+    "reviewCount": 687,
+    "imageName": "product_tarte-shape-tape",
+    "symbol": "pencil.tip",
+    "shades": [
+      {
+        "name": "8B porcelain beige",
+        "detail": "",
+        "hex": "F7DAC9",
+        "tone": "fair"
+      },
+      {
+        "name": "20S light sand",
+        "detail": "",
+        "hex": "E5C6AB",
+        "tone": "light"
+      },
+      {
+        "name": "29N light-medium",
+        "detail": "",
+        "hex": "E0B99D",
+        "tone": "light"
+      },
+      {
+        "name": "38N medium-tan neutral",
+        "detail": "",
+        "hex": "D29D7D",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "49W tan-deep warm",
+        "detail": "",
+        "hex": "C9774F",
+        "tone": "tan"
+      },
+      {
+        "name": "54H deep honey",
+        "detail": "",
+        "hex": "AD5E3D",
+        "tone": "deep"
+      },
+      {
+        "name": "59H rich honey",
+        "detail": "",
+        "hex": "824329",
+        "tone": "deep"
+      },
+      {
+        "name": "61G espresso golden",
+        "detail": "",
+        "hex": "753A1C",
+        "tone": "deepDark"
+      },
+      {
+        "name": "8B porcelain beige",
+        "detail": "",
+        "hex": "FDE3CB",
+        "tone": "fair"
+      },
+      {
+        "name": "20S light sand",
+        "detail": "",
+        "hex": "FAD9AF",
+        "tone": "fair"
+      },
+      {
+        "name": "29N light-medium",
+        "detail": "",
+        "hex": "F4BE92",
+        "tone": "light"
+      },
+      {
+        "name": "38N medium-tan neutral",
+        "detail": "",
+        "hex": "D79467",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "49W tan-deep warm",
+        "detail": "",
+        "hex": "B97550",
+        "tone": "tan"
+      },
+      {
+        "name": "54H deep honey",
+        "detail": "",
+        "hex": "A36647",
+        "tone": "tan"
+      },
+      {
+        "name": "59H rich honey",
+        "detail": "",
+        "hex": "78452F",
+        "tone": "deep"
+      },
+      {
+        "name": "61G espresso golden",
+        "detail": "",
+        "hex": "683D24",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "darkCircles",
+      "acne",
+      "redness"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "A full-coverage matte concealer that smooths and visibly brightens for an eye lift effect and up to 16-hour wear—best for oily or combination skin.",
+    "howToUse": "Apply concealer under eyes or over imperfections Blend upward with the concealer paw brush (sold separately)",
+    "source": "https://www.sephora.com/product/P471799",
+    "attributes": [
+      "brightening",
+      "colorCorrecting",
+      "cream",
+      "hydrating",
+      "longWear",
+      "matte"
+    ]
+  },
+  {
+    "id": "mac-studio-fix",
+    "brand": "MAC",
+    "name": "Studio Fix Fluid SPF 15 24HR Buildable Soft-Matte Foundation + Oil Control",
+    "cardName": "Studio Fix Fluid",
+    "category": "face",
+    "price": 39.0,
+    "rating": 4.5,
+    "reviewCount": 1132,
+    "imageName": "product_mac-studio-fix",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "NC5",
+        "detail": "",
+        "hex": "F7D7C4",
+        "tone": "fair"
+      },
+      {
+        "name": "N4",
+        "detail": "",
+        "hex": "FED8BF",
+        "tone": "fair"
+      },
+      {
+        "name": "NW13",
+        "detail": "",
+        "hex": "DFAB85",
+        "tone": "tan"
+      },
+      {
+        "name": "NC16",
+        "detail": "",
+        "hex": "FCD5B4",
+        "tone": "fair"
+      },
+      {
+        "name": "C3.5",
+        "detail": "",
+        "hex": "EAB692",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "NC20",
+        "detail": "",
+        "hex": "FAC99E",
+        "tone": "light"
+      },
+      {
+        "name": "NW22",
+        "detail": "",
+        "hex": "FEC495",
+        "tone": "light"
+      },
+      {
+        "name": "NC27",
+        "detail": "",
+        "hex": "F3BE99",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "NC37",
+        "detail": "",
+        "hex": "F3C396",
+        "tone": "light"
+      },
+      {
+        "name": "NW33",
+        "detail": "",
+        "hex": "D99B78",
+        "tone": "tan"
+      },
+      {
+        "name": "C8",
+        "detail": "",
+        "hex": "DA9A67",
+        "tone": "deep"
+      },
+      {
+        "name": "NC46",
+        "detail": "",
+        "hex": "E1A175",
+        "tone": "tan"
+      },
+      {
+        "name": "NC47",
+        "detail": "",
+        "hex": "D19464",
+        "tone": "deep"
+      },
+      {
+        "name": "NW48",
+        "detail": "",
+        "hex": "A3684C",
+        "tone": "deep"
+      },
+      {
+        "name": "NW55",
+        "detail": "",
+        "hex": "8B5642",
+        "tone": "deepDark"
+      },
+      {
+        "name": "NW58",
+        "detail": "",
+        "hex": "80513E",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "acne",
+      "unevenTone"
+    ],
+    "styles": [
+      "fullGlam",
+      "softGlam",
+      "dark"
+    ],
+    "details": "A 24-hour buildable, breathable liquid foundation with a natural, soft-matte finish in shades made for all skin tones and textures.",
+    "howToUse": "Start by applying Studio Fix Fluid SPF 15 24HR Matte Foundation + Oil Control to the center of the face, or areas where more coverage is desired. Blend outward using the 170 Synthetic Rounded Slant Brush (sold separately) with tapping and swirling motions for a smooth, photo-ready finish.",
+    "source": "https://www.sephora.com/product/P511153",
+    "attributes": [
+      "buildable",
+      "cream",
+      "hydrating",
+      "longWear",
+      "matte",
+      "oilControl",
+      "spf"
+    ]
+  },
+  {
+    "id": "rhode-pocket-blush",
+    "brand": "rhode",
+    "name": "Pocket Blush Buildable Hydrating Cream Blush",
+    "cardName": "Pocket Blush",
+    "category": "cheeks",
+    "price": 25.0,
+    "rating": 4.2,
+    "reviewCount": 2179,
+    "imageName": "product_rhode-pocket-blush",
+    "symbol": "circle.fill",
+    "shades": [
+      {
+        "name": "Piggy",
+        "detail": "baby pink",
+        "hex": "DE8796"
+      },
+      {
+        "name": "Sprinkle",
+        "detail": "warm pearly pink",
+        "hex": "D96F7F"
+      },
+      {
+        "name": "Juice Box",
+        "detail": "hot pink",
+        "hex": "F86788"
+      },
+      {
+        "name": "Spicy Marg",
+        "detail": "bright coral",
+        "hex": "F77F72"
+      },
+      {
+        "name": "Freckle",
+        "detail": "neutral peach",
+        "hex": "D4776C"
+      },
+      {
+        "name": "Tan Line",
+        "detail": "pinky tan",
+        "hex": "B97B73"
+      },
+      {
+        "name": "Sleepy Girl",
+        "detail": "soft mauve",
+        "hex": "C37070"
+      },
+      {
+        "name": "Toasted Teddy",
+        "detail": "bronze terracotta",
+        "hex": "935E57"
+      },
+      {
+        "name": "Sun Soak",
+        "detail": "spiced orange",
+        "hex": "C8624D"
+      },
+      {
+        "name": "Date Cake",
+        "detail": "warm red berry",
+        "hex": "AB575D"
+      },
+      {
+        "name": "Candy Apple",
+        "detail": "",
+        "hex": "E13057"
+      },
+      {
+        "name": "Teacup",
+        "detail": "",
+        "hex": "CB6B7E"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "softGlam"
+    ],
+    "details": "An on-the-go cream blush that wakes up cheeks and lips with a satiny, diffused flush.",
+    "howToUse": "Apply with your finger or a brush and tap onto cheeks. Color is buildable, so tap on a little or a lot&mdash;however you like it.",
+    "source": "https://www.sephora.com/product/P517483",
+    "attributes": [
+      "buildable",
+      "cream",
+      "hydrating",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "rhode-pocket-bronze",
+    "brand": "rhode",
+    "name": "Pocket Bronze Long-Wearing Cream Bronzer",
+    "cardName": "Pocket Bronze",
+    "category": "cheeks",
+    "price": 25.0,
+    "rating": 4.2,
+    "reviewCount": 496,
+    "imageName": "product_rhode-pocket-bronze",
+    "symbol": "sun.haze.fill",
+    "shades": [
+      {
+        "name": "pebble",
+        "detail": "",
+        "hex": "D69B7D"
+      },
+      {
+        "name": "sip",
+        "detail": "",
+        "hex": "C58972"
+      },
+      {
+        "name": "sunbed",
+        "detail": "",
+        "hex": "A97562"
+      },
+      {
+        "name": "bake",
+        "detail": "",
+        "hex": "A26349"
+      },
+      {
+        "name": "shade",
+        "detail": "",
+        "hex": "93574D"
+      },
+      {
+        "name": "drench",
+        "detail": "",
+        "hex": "754B44"
+      },
+      {
+        "name": "anklet",
+        "detail": "",
+        "hex": "6A443D"
+      },
+      {
+        "name": "plunge",
+        "detail": "",
+        "hex": "52413B"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "bronzy",
+      "natural"
+    ],
+    "details": "A long-wearing cream bronzer that delivers hydrating, buildable color and blends seamlessly, adding sunkissed warmth and soft dimension.",
+    "howToUse": "Apply directly on the skin, then blend with fingers or a brush. rhode Tricks: Wear on the bridge of your nose and temples for a sunkissed look.",
+    "source": "https://www.sephora.com/product/P524970",
+    "attributes": [
+      "buildable",
+      "cream",
+      "hydrating",
+      "longWear"
+    ]
+  },
+  {
+    "id": "nars-blush",
+    "brand": "NARS",
+    "name": "Talc-Free Powder Blush",
+    "cardName": "Powder Blush",
+    "category": "cheeks",
+    "price": 36.0,
+    "rating": 4.1,
+    "reviewCount": 820,
+    "imageName": "product_nars-blush",
+    "symbol": "circle.lefthalf.filled",
+    "shades": [
+      {
+        "name": "Orgasm X – 776",
+        "detail": "",
+        "hex": "EF7484"
+      },
+      {
+        "name": "Orgasm Rush – 775",
+        "detail": "",
+        "hex": "9C4F53"
+      },
+      {
+        "name": "Deep Throat – 237",
+        "detail": "",
+        "hex": "E19395"
+      },
+      {
+        "name": "Orgasm Edge – 778",
+        "detail": "",
+        "hex": "FC888A"
+      },
+      {
+        "name": "Orgasm – 777",
+        "detail": "",
+        "hex": "EBA1A0"
+      },
+      {
+        "name": "Sex Appeal – 920",
+        "detail": "",
+        "hex": "F3B9B5"
+      },
+      {
+        "name": "Dolce Vita – 888",
+        "detail": "",
+        "hex": "BE6971"
+      },
+      {
+        "name": "Amour – 901",
+        "detail": "",
+        "hex": "C37274"
+      },
+      {
+        "name": "Dominant – 951",
+        "detail": "",
+        "hex": "FB859A"
+      },
+      {
+        "name": "Exhibit A – 953",
+        "detail": "",
+        "hex": "EB4540"
+      },
+      {
+        "name": "Orgasm – 777",
+        "detail": "",
+        "hex": "FA9897"
+      },
+      {
+        "name": "Orgasm Edge – 778",
+        "detail": "",
+        "hex": "F7898D"
+      },
+      {
+        "name": "Teased",
+        "detail": "",
+        "hex": "CC4893"
+      },
+      {
+        "name": "Impassioned",
+        "detail": "903",
+        "hex": "E3A5B4"
+      },
+      {
+        "name": "Never Enough",
+        "detail": "",
+        "hex": "E19EA0"
+      },
+      {
+        "name": "Mad Love",
+        "detail": "",
+        "hex": "B16A70"
+      }
+    ],
+    "concerns": [
+      "oily"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "natural"
+    ],
+    "details": "A fan fave pressed powder blush, now in an upgraded talc-free formula that lasts for up to 16 hours, featuring true-color payoff with a comfortable, weightless feel.",
+    "howToUse": "Start application where the strongest color impact is desired; the strongest color payoff will be at the first point of brush contact to skin. For a natural rush of color, gently buff color onto skin using sweeping circular motions with NARS #16 Blush Brush for more color payoff, or NARS Yachiyo Brush for softer color…",
+    "source": "https://www.sephora.com/product/P2855",
+    "attributes": [
+      "blurring",
+      "cream",
+      "longWear",
+      "mineral",
+      "powder"
+    ]
+  },
+  {
+    "id": "toofaced-chocolate-soleil",
+    "brand": "Too Faced",
+    "name": "Chocolate Soleil Matte Blurring Bronzer",
+    "cardName": "Chocolate Soleil Bronzer",
+    "category": "cheeks",
+    "price": 38.0,
+    "rating": 4.7,
+    "reviewCount": 439,
+    "imageName": "product_toofaced-chocolate-soleil",
+    "symbol": "sun.haze.fill",
+    "shades": [
+      {
+        "name": "Milk Chocolate",
+        "detail": "",
+        "hex": "AB704E"
+      },
+      {
+        "name": "Chocolate Soleil",
+        "detail": "",
+        "hex": "A26342"
+      },
+      {
+        "name": "Chocolate Caramel",
+        "detail": "",
+        "hex": "884729"
+      },
+      {
+        "name": "Chocolate Lava",
+        "detail": "",
+        "hex": "763823"
+      },
+      {
+        "name": "Chocolate Ganache",
+        "detail": "",
+        "hex": "5F3121"
+      },
+      {
+        "name": "Chocolate Toffee",
+        "detail": "",
+        "hex": "98542F"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "unevenTone"
+    ],
+    "styles": [
+      "bronzy",
+      "fullGlam"
+    ],
+    "details": "A long-wearing, cocoa-infused bronzer for natural-looking sunkissed effects and a blurred bronze finish that doesn’t settle.",
+    "howToUse": "With a soft powder brush, sweep over face where the sun naturally kisses: forehead, cheeks, chin, and neck.",
+    "source": "https://www.sephora.com/product/P522118",
+    "attributes": [
+      "blurring",
+      "buildable",
+      "longWear",
+      "matte",
+      "powder"
+    ]
+  },
+  {
+    "id": "rare-positive-light",
+    "brand": "Rare Beauty",
+    "name": "Positive Light Liquid Luminizer Highlight",
+    "cardName": "Positive Light Luminizer",
+    "category": "cheeks",
+    "price": 28.0,
+    "rating": 4.2,
+    "reviewCount": 3272,
+    "imageName": "product_rare-positive-light",
+    "symbol": "sparkle",
+    "shades": [
+      {
+        "name": "Enlighten",
+        "detail": "",
+        "hex": "E0C6B8"
+      },
+      {
+        "name": "Enchant",
+        "detail": "",
+        "hex": "D4A699"
+      },
+      {
+        "name": "Mesmerize",
+        "detail": "",
+        "hex": "D8937E"
+      },
+      {
+        "name": "Outshine",
+        "detail": "",
+        "hex": "E4B07F"
+      },
+      {
+        "name": "Transcend",
+        "detail": "",
+        "hex": "D58D72"
+      },
+      {
+        "name": "Flaunt",
+        "detail": "",
+        "hex": "D78853"
+      },
+      {
+        "name": "Exhilarate",
+        "detail": "",
+        "hex": "FBD6B1"
+      },
+      {
+        "name": "Reflect",
+        "detail": "",
+        "hex": "AC4A2E"
+      },
+      {
+        "name": "Reveal",
+        "detail": "",
+        "hex": "D47F57"
+      },
+      {
+        "name": "Exhiliarate",
+        "detail": "",
+        "hex": "FBD6B1"
+      },
+      {
+        "name": "Flaunt",
+        "detail": "",
+        "hex": "D78853"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "fineLines"
+    ],
+    "styles": [
+      "softGlam",
+      "light",
+      "natural"
+    ],
+    "details": "A silky, second-skin liquid highlighter that creates a lasting, soft, and luminous finish.",
+    "howToUse": "Using the doe-foot applicator, apply one or two dots wherever you want to add a touch of glow: high points of cheeks, browbone, or bridge of nose.",
+    "source": "https://www.sephora.com/product/P38855877",
+    "attributes": [
+      "brightening",
+      "cream",
+      "luminous"
+    ]
+  },
+  {
+    "id": "fenty-killawatt",
+    "brand": "Fenty Beauty",
+    "name": "Killawatt Freestyle Highlighter",
+    "cardName": "Killawatt Highlighter",
+    "category": "cheeks",
+    "price": 40.0,
+    "rating": 4.6,
+    "reviewCount": 3769,
+    "imageName": "product_fenty-killawatt",
+    "symbol": "sparkles",
+    "shades": [
+      {
+        "name": "Trophy Wife",
+        "detail": "",
+        "hex": "E7D192"
+      },
+      {
+        "name": "Girl Next Door/Chic Phreak",
+        "detail": "",
+        "hex": "E8C7BB"
+      },
+      {
+        "name": "Lightning Dust/Fire Crystal",
+        "detail": "",
+        "hex": "E8CFC2"
+      },
+      {
+        "name": "Ginger Binge/ Moscow Mule",
+        "detail": "",
+        "hex": "DCADA2"
+      },
+      {
+        "name": "Afternoon Snack/Mo' Hunny",
+        "detail": "",
+        "hex": "DAB8A4"
+      },
+      {
+        "name": "Wattabrat",
+        "detail": "",
+        "hex": "E1AEBB"
+      },
+      {
+        "name": "Mean Money/Hu$tla Baby",
+        "detail": "",
+        "hex": "E5C4B3"
+      },
+      {
+        "name": "Wattabrat",
+        "detail": "",
+        "hex": "DFA0B0"
+      },
+      {
+        "name": "WATTAB!*%#",
+        "detail": "",
+        "hex": "E25D8A"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "fullGlam",
+      "softGlam",
+      "bronzy"
+    ],
+    "details": "A weightless, long-wear, cream-powder hybrid highlighter for the face and eyes in a range of shades, from subtle to supercharged, in solos and expertly-paired duos.",
+    "howToUse": "Each duo features a subtle sheen on the left (perfect for the day) and supercharged shimmer on the right (killer for night). For the second step of the Fenty Face, layer that highlight.",
+    "source": "https://www.sephora.com/product/P64879845",
+    "attributes": [
+      "cream",
+      "longWear",
+      "luminous",
+      "powder"
+    ]
+  },
+  {
+    "id": "mario-soft-pop",
+    "brand": "Makeup by Mario",
+    "name": "Soft Pop Plumping Cream Blush Veil",
+    "cardName": "Soft Pop Blush Veil",
+    "category": "cheeks",
+    "price": 34.0,
+    "rating": 4.6,
+    "reviewCount": 1397,
+    "imageName": "product_mario-soft-pop",
+    "symbol": "circle.fill",
+    "shades": [
+      {
+        "name": "Pink Peony",
+        "detail": "",
+        "hex": "F599BF"
+      },
+      {
+        "name": "Paradise Pink",
+        "detail": "",
+        "hex": "F54875"
+      },
+      {
+        "name": "Strawberry Sunset",
+        "detail": "",
+        "hex": "F4757C"
+      },
+      {
+        "name": "Papaya Pop",
+        "detail": "",
+        "hex": "EC6642"
+      },
+      {
+        "name": "Barely Blushing",
+        "detail": "",
+        "hex": "E0A9A9"
+      },
+      {
+        "name": "Pinch Me Pink",
+        "detail": "",
+        "hex": "FDB8C2"
+      },
+      {
+        "name": "Just Peachy",
+        "detail": "",
+        "hex": "F9A8A1"
+      },
+      {
+        "name": "Rose Crush",
+        "detail": "",
+        "hex": "D18E95"
+      },
+      {
+        "name": "Berry Punch",
+        "detail": "",
+        "hex": "A96D7D"
+      },
+      {
+        "name": "Perfect Pink",
+        "detail": "",
+        "hex": "E29CB0"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "fineLines"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "light"
+    ],
+    "details": "A weightless cream blush that is made with hyaluronic acid to hydrate and plump skin with a sheer veil of color.",
+    "howToUse": "Apply the Soft Pop Plumping Blush Veil over the SoftSculpt&trade; Transforming Skin Enhancer (sold separately) or your favorite base for a warm, dewy look. Work the F1 Brush until hairs are evenly coated, then apply onto the apples of the cheeks, blending up towards the temple.",
+    "source": "https://www.sephora.com/product/P506130",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "ct-beauty-light-wand",
+    "brand": "Charlotte Tilbury",
+    "name": "Beauty Highlighter Wand",
+    "cardName": "Beauty Light Wand",
+    "category": "cheeks",
+    "price": 44.0,
+    "rating": 3.8,
+    "reviewCount": 1588,
+    "imageName": "product_ct-beauty-light-wand",
+    "symbol": "wand.and.stars",
+    "shades": [
+      {
+        "name": "Goldgasm",
+        "detail": "",
+        "hex": "FCD2A6"
+      },
+      {
+        "name": "Peachgasm",
+        "detail": "",
+        "hex": "FAADA3"
+      },
+      {
+        "name": "Pillow Talk",
+        "detail": "",
+        "hex": "F7D6CB"
+      },
+      {
+        "name": "Spotlight",
+        "detail": "",
+        "hex": "FCE8C8"
+      },
+      {
+        "name": "Pinkgasm",
+        "detail": "",
+        "hex": "F6A3A4"
+      },
+      {
+        "name": "Pillow Talk Medium",
+        "detail": "",
+        "hex": "F4B597"
+      },
+      {
+        "name": "Pinkgasm Sunset",
+        "detail": "",
+        "hex": "FC574A"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "light"
+    ],
+    "details": "A multi-use illuminating gel that can be worn as a highlighter or blush for buildable color and an instant glow. Dot and blend for easy application.",
+    "howToUse": "Twist to open applicator Squeeze desired amount of product onto applicator sponge and lock the applicator",
+    "source": "https://www.sephora.com/product/P444154",
+    "attributes": [
+      "blurring",
+      "brightening",
+      "buildable",
+      "cream",
+      "luminous"
+    ]
+  },
+  {
+    "id": "toofaced-better-than-sex",
+    "brand": "Too Faced",
+    "name": "Better Than Sex Volumizing & Lengthening Mascara",
+    "cardName": "Better Than Sex Mascara",
+    "category": "eyes",
+    "price": 29.0,
+    "rating": 3.7,
+    "reviewCount": 19696,
+    "imageName": "product_toofaced-better-than-sex",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "black",
+        "detail": "",
+        "hex": "B3ADAC"
+      },
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "8F8685"
+      },
+      {
+        "name": "Chocolate",
+        "detail": "",
+        "hex": "867A78"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "A conditioning mascara with a formula that thickens, lengthens, and locks in curl for dramatic lashes with extreme volume.",
+    "howToUse": "Hold wand horizontally and sweep upward from base to tip for voluptuous volume and maximum drama. One coat provides all the length and volume you need, but the formula can be layered for added intensity.",
+    "source": "https://www.sephora.com/product/P381000",
+    "attributes": []
+  },
+  {
+    "id": "toofaced-natural-nudes",
+    "brand": "Too Faced",
+    "name": "Born This Way The Natural Nudes Eyeshadow Palette",
+    "cardName": "Natural Nudes Palette",
+    "category": "eyes",
+    "price": 57.0,
+    "rating": 4.0,
+    "reviewCount": 348,
+    "imageName": "product_toofaced-natural-nudes",
+    "symbol": "square.grid.3x3.fill",
+    "shades": [],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam",
+      "bronzy"
+    ],
+    "details": "An eyeshadow palette of modern nude shades inspired by the beautiful nuances of real skin tones.",
+    "howToUse": "Enhance and open eyes by applying a matte shadow in a shade closest to your skin tone and blend from lash line to crease to create a bright, clean base like a foundation for your eyelid. Layer the shimmer shade in the same undertone and color family on top to add a subtle glow where you want a small spotlight.",
+    "source": "https://www.sephora.com/product/P455201",
+    "attributes": [
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "nars-climax",
+    "brand": "NARS",
+    "name": "Climax Volumizing Mascara",
+    "cardName": "Climax Mascara",
+    "category": "eyes",
+    "price": 28.0,
+    "rating": 3.3,
+    "reviewCount": 709,
+    "imageName": "product_nars-climax",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "Explicit Black",
+        "detail": "",
+        "hex": "464646"
+      },
+      {
+        "name": "Explicit Black",
+        "detail": "",
+        "hex": "464646"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "fullGlam",
+      "dark"
+    ],
+    "details": "An innovative mascara that delivers buildable volume and intense black color in a lightweight, flexible formula that won’t clump or smudge.",
+    "howToUse": "For dramatic volume, start by coating the top and bottom of the upper lashes, using the brush to wiggle through. Next, concentrate application on the root and the outer lashes.",
+    "source": "https://www.sephora.com/product/P434385",
+    "attributes": [
+      "buildable",
+      "cream",
+      "hydrating"
+    ]
+  },
+  {
+    "id": "rare-perfect-strokes-mascara",
+    "brand": "Rare Beauty",
+    "name": "Perfect Strokes Universal Volumizing Mascara",
+    "cardName": "Perfect Strokes Mascara",
+    "category": "eyes",
+    "price": 24.0,
+    "rating": 4.2,
+    "reviewCount": 2597,
+    "imageName": "product_rare-perfect-strokes-mascara",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "444444"
+      },
+      {
+        "name": "Brown",
+        "detail": "",
+        "hex": "866E64"
+      },
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "444444"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "A universal mascara with a unique eye-hugging brush to lift, lengthen, curl, and volumize every lash type for a lusher look.",
+    "howToUse": "Starting at the base of your upper lashes, swipe brush from roots to tips. Layer until desired effect is achieved.",
+    "source": "https://www.sephora.com/product/P475599",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "longWear"
+    ]
+  },
+  {
+    "id": "mario-master-mattes",
+    "brand": "Makeup by Mario",
+    "name": "Master Mattes Eyeshadow Palette: The Original",
+    "cardName": "Master Mattes Palette",
+    "category": "eyes",
+    "price": 56.0,
+    "rating": 4.4,
+    "reviewCount": 1948,
+    "imageName": "product_mario-master-mattes",
+    "symbol": "square.grid.3x3.fill",
+    "shades": [],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark",
+      "bronzy"
+    ],
+    "details": "A universal must-have matte palette formulated to be easily buildable so that it can go from natural to dramatic without causing fallout.",
+    "howToUse": "Lighter shades can work well as an allover base, highlighter on the browbone, or in the inner corners of the eye. Contour and define the crease with the medium and deeper shades.",
+    "source": "https://www.sephora.com/product/P98364786",
+    "attributes": [
+      "buildable",
+      "cream",
+      "matte"
+    ]
+  },
+  {
+    "id": "benefit-precisely-my-brow",
+    "brand": "Benefit",
+    "name": "Precisely, My Brow Pencil Waterproof Micro-Precision Eyebrow Definer",
+    "cardName": "Precisely, My Brow",
+    "category": "eyes",
+    "price": 28.0,
+    "rating": 4.5,
+    "reviewCount": 6440,
+    "imageName": "product_benefit-precisely-my-brow",
+    "symbol": "pencil",
+    "shades": [
+      {
+        "name": "Grey",
+        "detail": "",
+        "hex": "B0A9A8"
+      },
+      {
+        "name": "Shade 1",
+        "detail": "",
+        "hex": "E1D4C7"
+      },
+      {
+        "name": "Shade 2.5",
+        "detail": "",
+        "hex": "C9B3A1"
+      },
+      {
+        "name": "Shade 2.75",
+        "detail": "",
+        "hex": "C5B09A"
+      },
+      {
+        "name": "Shade 3.5",
+        "detail": "",
+        "hex": "B6A59F"
+      },
+      {
+        "name": "Shade 3.75",
+        "detail": "",
+        "hex": "BBA39C"
+      },
+      {
+        "name": "Shade 4.5",
+        "detail": "",
+        "hex": "ADA29A"
+      },
+      {
+        "name": "Shade 5",
+        "detail": "",
+        "hex": "A49991"
+      },
+      {
+        "name": "Grey",
+        "detail": "",
+        "hex": "9B989A"
+      },
+      {
+        "name": "Shade 1",
+        "detail": "",
+        "hex": "D1B3A6"
+      },
+      {
+        "name": "Shade 2.5",
+        "detail": "",
+        "hex": "CFB5A5"
+      },
+      {
+        "name": "Shade 2.75",
+        "detail": "",
+        "hex": "D3A389"
+      },
+      {
+        "name": "Shade 3.5",
+        "detail": "",
+        "hex": "BC9A8B"
+      },
+      {
+        "name": "Shade 3.75",
+        "detail": "",
+        "hex": "BC9987"
+      },
+      {
+        "name": "Shade 4.5",
+        "detail": "",
+        "hex": "A58483"
+      },
+      {
+        "name": "Shade 5",
+        "detail": "",
+        "hex": "A18985"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "A bestselling, waterproof brow pencil that transforms shapeless, undefined brows with a few strokes—and wears for up to 12 hours without smudging.",
+    "howToUse": "Hold the pencil using the custom control grip for steady, precise application. Shape the brow with longer, horizontal strokes along the base line.",
+    "source": "https://www.sephora.com/product/P408219",
+    "attributes": [
+      "longWear",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "rhode-lip-tint",
+    "brand": "rhode",
+    "name": "Peptide Lip Tint Nourishing Glaze",
+    "cardName": "Peptide Lip Tint",
+    "category": "lips",
+    "price": 20.0,
+    "rating": 4.0,
+    "reviewCount": 3417,
+    "imageName": "product_rhode-lip-tint",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Jelly Bean",
+        "detail": "shimmery sheer baby pink + sweet pink jelly bean scent",
+        "hex": "F6B5C5"
+      },
+      {
+        "name": "Ribbon",
+        "detail": "sheer pink",
+        "hex": "EA8991"
+      },
+      {
+        "name": "Toast",
+        "detail": "rose taupe",
+        "hex": "B56352"
+      },
+      {
+        "name": "Salty Tan",
+        "detail": "soft mauve",
+        "hex": "A84E59"
+      },
+      {
+        "name": "Raspberry Jelly",
+        "detail": "crushed berry",
+        "hex": "780438"
+      },
+      {
+        "name": "PB&J",
+        "detail": "warm berry brown",
+        "hex": "771B20"
+      },
+      {
+        "name": "Espresso",
+        "detail": "rich brown",
+        "hex": "673734"
+      },
+      {
+        "name": "Pretzel",
+        "detail": "shimmery warm mauve + caramel-glazed pretzel scent",
+        "hex": "C56B76"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "A nourishing formula with a hint of tint that hydrates and replenishes lips while leaving a glossy, high-shine finish.",
+    "howToUse": "Tint lips day or night. Our buildable formula can be applied in one swipe for sheer color or layered over Pocket Blush and Peptide Lip Shape.",
+    "source": "https://www.sephora.com/product/P517552",
+    "attributes": [
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "rhode-lip-treatment",
+    "brand": "rhode",
+    "name": "Peptide Lip Treatment Nourishing Glaze",
+    "cardName": "Peptide Lip Treatment",
+    "category": "lips",
+    "price": 20.0,
+    "rating": 4.1,
+    "reviewCount": 1225,
+    "imageName": "product_rhode-lip-treatment",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Unscented",
+        "detail": "",
+        "hex": "B3B3B3"
+      },
+      {
+        "name": "Watermelon Slice",
+        "detail": "",
+        "hex": "B3B3B3"
+      },
+      {
+        "name": "Salted Caramel",
+        "detail": "",
+        "hex": "B4B2B3"
+      },
+      {
+        "name": "Rhode Vanilla",
+        "detail": "",
+        "hex": "B4AFB1"
+      },
+      {
+        "name": "Strawberry Glaze",
+        "detail": "",
+        "hex": "B3ACAD"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "A nourishing formula that hydrates and visibly plumps lips while leaving a glossy, high-shine finish.",
+    "howToUse": "Glaze lips day or night. Reapply whenever lips need glossy hydration.",
+    "source": "https://www.sephora.com/product/P517486",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "nars-afterglow-balm",
+    "brand": "NARS",
+    "name": "Afterglow Moisturizing Lip Balm with Hyaluronic Acid",
+    "cardName": "Afterglow Lip Balm",
+    "category": "lips",
+    "price": 30.0,
+    "rating": 4.1,
+    "reviewCount": 168,
+    "imageName": "product_nars-afterglow-balm",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Triple X",
+        "detail": "",
+        "hex": "DCB2A7"
+      },
+      {
+        "name": "Stargaze",
+        "detail": "",
+        "hex": "DC687E"
+      },
+      {
+        "name": "Orgasm",
+        "detail": "",
+        "hex": "D65177"
+      },
+      {
+        "name": "Fast Lane",
+        "detail": "",
+        "hex": "C26982"
+      },
+      {
+        "name": "Dolce Vita",
+        "detail": "",
+        "hex": "C45559"
+      },
+      {
+        "name": "Crush",
+        "detail": "",
+        "hex": "BC6449"
+      },
+      {
+        "name": "Hot Line",
+        "detail": "",
+        "hex": "9C3E3F"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "softGlam"
+    ],
+    "details": "A bestselling, buttery balm—now with 24-hour hydration and sheer shine.",
+    "howToUse": "Apply to bare lips for a sheer hint of color, or as a moisturizing base under any lip shade. To add shine and subtle illumination, apply over other lip colors.",
+    "source": "https://www.sephora.com/product/P519765",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "toofaced-lip-injection",
+    "brand": "Too Faced",
+    "name": "Lip Injection Maximum Plump Extra Strength Hydrating Lip Plumper",
+    "cardName": "Lip Injection Plump",
+    "category": "lips",
+    "price": 33.0,
+    "rating": 3.8,
+    "reviewCount": 1057,
+    "imageName": "product_toofaced-lip-injection",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Yummy Bear",
+        "detail": "",
+        "hex": "F64E63"
+      },
+      {
+        "name": "Cotton Candy Kisses",
+        "detail": "",
+        "hex": "F29974"
+      },
+      {
+        "name": "Creamsicle Tickle",
+        "detail": "",
+        "hex": "FA8468"
+      },
+      {
+        "name": "Clear",
+        "detail": "",
+        "hex": "EFACC8"
+      },
+      {
+        "name": "Clear",
+        "detail": "",
+        "hex": "E099C3"
+      },
+      {
+        "name": "Magic Crystal",
+        "detail": "",
+        "hex": "DEA4BA"
+      },
+      {
+        "name": "Berry Crush",
+        "detail": "",
+        "hex": "A63C6F"
+      },
+      {
+        "name": "Full Send",
+        "detail": "",
+        "hex": "BB617C"
+      },
+      {
+        "name": "Wink Wink",
+        "detail": "",
+        "hex": "F18199"
+      },
+      {
+        "name": "A La Mode",
+        "detail": "",
+        "hex": "CE7C74"
+      },
+      {
+        "name": "Ready For It",
+        "detail": "",
+        "hex": "975A4A"
+      },
+      {
+        "name": "Honeybear",
+        "detail": "",
+        "hex": "B87563"
+      },
+      {
+        "name": "Lavender Daze",
+        "detail": "",
+        "hex": "E47CC8"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "fineLines"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "natural"
+    ],
+    "details": "An advanced lip plumper formula that dramatically hydrates, nourishes, and visibly volumizes lips intensely, immediately, and over time.",
+    "howToUse": "For an instant sexy pout, apply Lip Injection Maximum Plump to the center of the top and bottom lip and blend outward to the corners of the lips, using the doe-foot applicator or a lip brush. Pro tip: Plump lips with a pop of long-wearing color by applying Lip Injection Maximum Plump all over lips and wait five…",
+    "source": "https://www.sephora.com/product/P467794",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "rare-lip-oil",
+    "brand": "Rare Beauty",
+    "name": "Soft Pinch Tinted Lip Oil Stain",
+    "cardName": "Soft Pinch Lip Oil",
+    "category": "lips",
+    "price": 24.0,
+    "rating": 4.1,
+    "reviewCount": 5212,
+    "imageName": "product_rare-lip-oil",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "Serenity",
+        "detail": "",
+        "hex": "BB544E"
+      },
+      {
+        "name": "Affection",
+        "detail": "",
+        "hex": "812B4D"
+      },
+      {
+        "name": "Happy",
+        "detail": "",
+        "hex": "DF6972"
+      },
+      {
+        "name": "Joy",
+        "detail": "",
+        "hex": "D7685E"
+      },
+      {
+        "name": "Delight",
+        "detail": "",
+        "hex": "B1564F"
+      },
+      {
+        "name": "Hope",
+        "detail": "",
+        "hex": "E1838F"
+      },
+      {
+        "name": "Wonder",
+        "detail": "",
+        "hex": "C35369"
+      },
+      {
+        "name": "Honesty",
+        "detail": "",
+        "hex": "9D4737"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "An innovative gel-to-oil formula that starts glossy and leaves lips tinted while staying comfortable—never sticky—all day.",
+    "howToUse": "Swipe over bare lips, adding layers as desired. For an even fuller, defined look, first line lips with Kind Words Matte Lip Liner (sold separately).",
+    "source": "https://www.sephora.com/product/P505568",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "rare-lip-oil-stick",
+    "brand": "Rare Beauty",
+    "name": "Soft Pinch Lip Oil Stick",
+    "cardName": "Soft Pinch Lip Oil Stick",
+    "category": "lips",
+    "price": 25.0,
+    "rating": 4.8,
+    "reviewCount": 1850,
+    "imageName": "product_rare-lip-oil-stick",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Wish",
+        "detail": "",
+        "hex": "F86367"
+      },
+      {
+        "name": "Dream",
+        "detail": "",
+        "hex": "C16E7E"
+      },
+      {
+        "name": "Muse",
+        "detail": "",
+        "hex": "A14F4D"
+      },
+      {
+        "name": "Embrace",
+        "detail": "",
+        "hex": "994F4D"
+      },
+      {
+        "name": "Success",
+        "detail": "",
+        "hex": "E92226"
+      },
+      {
+        "name": "Bloom",
+        "detail": "",
+        "hex": "FD389F"
+      },
+      {
+        "name": "Fortune",
+        "detail": "",
+        "hex": "6F143A"
+      },
+      {
+        "name": "Journey",
+        "detail": "",
+        "hex": "4E3126"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "A juicy three-in-one hybrid that treats like an oil, shines like a gloss, and delivers bold, buildable color that’s comfortable to wear for up to 12 hours.",
+    "howToUse": "Gently swipe onto clean, dry lips. The silky formula glides on effortlessly for juicy, buildable color.",
+    "source": "https://www.sephora.com/product/P525118",
+    "attributes": [
+      "buildable",
+      "cream",
+      "hydrating",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "laneige-lip-mask",
+    "brand": "Laneige",
+    "name": "Lip Sleeping Mask – Intense Hydration Lip Treatment with Vitamin C",
+    "cardName": "Lip Sleeping Mask",
+    "category": "lips",
+    "price": 25.0,
+    "rating": 4.3,
+    "reviewCount": 22474,
+    "imageName": "product_laneige-lip-mask",
+    "symbol": "moon.fill",
+    "shades": [
+      {
+        "name": "Gummy Bear",
+        "detail": "",
+        "hex": "A072AA"
+      },
+      {
+        "name": "Vanilla",
+        "detail": "",
+        "hex": "D7BE90"
+      },
+      {
+        "name": "Sweet Candy",
+        "detail": "",
+        "hex": "DF79A5"
+      },
+      {
+        "name": "Berry",
+        "detail": "",
+        "hex": "E36671"
+      },
+      {
+        "name": "Grapefruit",
+        "detail": "",
+        "hex": "D07F7A"
+      },
+      {
+        "name": "Peach Iced Tea",
+        "detail": "",
+        "hex": "C56954"
+      },
+      {
+        "name": "Matcha Bubble Tea",
+        "detail": "",
+        "hex": "96AD7F"
+      },
+      {
+        "name": "Strawberry Shortcake",
+        "detail": "",
+        "hex": "E19297"
+      },
+      {
+        "name": "Acai Mango Smoothie",
+        "detail": "",
+        "hex": "C29276"
+      },
+      {
+        "name": "Gingerbread",
+        "detail": "",
+        "hex": "B6805D"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "An overnight leave-on lip mask powered by Korean skincare to soften lips while delivering intense moisture and antioxidants while you sleep. Enriched with Berry Fruit Complex, Murumuru Seed, and Shea butter.",
+    "howToUse": "Apply generously to the lips in the evening and leave on overnight. Gently wipe off excess in the morning as needed.",
+    "source": "https://www.sephora.com/product/P420652",
+    "attributes": [
+      "cream",
+      "hydrating"
+    ]
+  },
+  {
+    "id": "dior-lip-glow-oil",
+    "brand": "Dior",
+    "name": "Lip Glow Oil Hydrating High-Shine Gloss",
+    "cardName": "Lip Glow Oil",
+    "category": "lips",
+    "price": 42.0,
+    "rating": 4.6,
+    "reviewCount": 1018,
+    "imageName": "product_dior-lip-glow-oil",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "087 Spicy",
+        "detail": "",
+        "hex": "F87E80"
+      },
+      {
+        "name": "041 Peachy",
+        "detail": "",
+        "hex": "F95D3B"
+      },
+      {
+        "name": "113 Icy Rosy",
+        "detail": "",
+        "hex": "F9CCD3"
+      },
+      {
+        "name": "104 Black Cherry",
+        "detail": "",
+        "hex": "811423"
+      },
+      {
+        "name": "081 Latte",
+        "detail": "",
+        "hex": "C05F59"
+      },
+      {
+        "name": "012 Rosewood",
+        "detail": "",
+        "hex": "EE7172"
+      },
+      {
+        "name": "114 Glazed Honey",
+        "detail": "",
+        "hex": "F39578"
+      },
+      {
+        "name": "015 Cherry",
+        "detail": "",
+        "hex": "E93F51"
+      },
+      {
+        "name": "088 Mocha",
+        "detail": "",
+        "hex": "B45D58"
+      },
+      {
+        "name": "074 Jelly",
+        "detail": "",
+        "hex": "DF3455"
+      },
+      {
+        "name": "007 Raspberry",
+        "detail": "",
+        "hex": "F761A0"
+      },
+      {
+        "name": "086 Minty",
+        "detail": "",
+        "hex": "CDE7D4"
+      },
+      {
+        "name": "077 Rosy Candy",
+        "detail": "",
+        "hex": "F79183"
+      },
+      {
+        "name": "046 Cranberry",
+        "detail": "",
+        "hex": "BD2437"
+      },
+      {
+        "name": "006 Berry",
+        "detail": "",
+        "hex": "790248"
+      },
+      {
+        "name": "085 Cupcake",
+        "detail": "",
+        "hex": "F4E7E8"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "softGlam"
+    ],
+    "details": "An ultra-glossy lip oil that makes lips look plump with an instant mirror-shine gloss effect— now available in 16 shades and three shiny finishes.",
+    "howToUse": "Prep your lips with Dior Addict Lip Glow hydrating balm. Smooth on Dior Addict Lip Glow Oil.",
+    "source": "https://www.sephora.com/product/P519637",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "mac-lip-pencil",
+    "brand": "MAC",
+    "name": "Lip Pencil Creamy Lip Liner",
+    "cardName": "Lip Pencil",
+    "category": "lips",
+    "price": 25.0,
+    "rating": 4.5,
+    "reviewCount": 502,
+    "imageName": "product_mac-lip-pencil",
+    "symbol": "pencil",
+    "shades": [
+      {
+        "name": "Subculture",
+        "detail": "",
+        "hex": "D5A29D"
+      },
+      {
+        "name": "Cool Spice",
+        "detail": "",
+        "hex": "A77B73"
+      },
+      {
+        "name": "Stripdown",
+        "detail": "",
+        "hex": "B58C84"
+      },
+      {
+        "name": "Spice",
+        "detail": "",
+        "hex": "D08D89"
+      },
+      {
+        "name": "Soar",
+        "detail": "",
+        "hex": "C68C94"
+      },
+      {
+        "name": "Burgundy",
+        "detail": "",
+        "hex": "996670"
+      },
+      {
+        "name": "Stone",
+        "detail": "",
+        "hex": "A28C87"
+      },
+      {
+        "name": "Chestnut",
+        "detail": "",
+        "hex": "88716A"
+      },
+      {
+        "name": "Nightmoth",
+        "detail": "",
+        "hex": "84686E"
+      },
+      {
+        "name": "Auburn",
+        "detail": "",
+        "hex": "B16769"
+      },
+      {
+        "name": "Ruby Woo",
+        "detail": "",
+        "hex": "CE5E6D"
+      },
+      {
+        "name": "Magenta",
+        "detail": "",
+        "hex": "C0639D"
+      },
+      {
+        "name": "Sweet Talk",
+        "detail": "",
+        "hex": "AF787A"
+      },
+      {
+        "name": "Brick-O-La",
+        "detail": "",
+        "hex": "A86A70"
+      },
+      {
+        "name": "Root For Me",
+        "detail": "",
+        "hex": "6B5052"
+      },
+      {
+        "name": "Oak",
+        "detail": "",
+        "hex": "BD998E"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark",
+      "bronzy"
+    ],
+    "details": "A creamy, precise lip liner pencil for shaping, lining, filling, or defining lips.",
+    "howToUse": "Apply lip liner before lipstick by lining your lips using the pencil tip for a defined lip look with long-lasting color. Try a shade slightly deeper than your lipstick and blend for a fuller lip look.",
+    "source": "https://www.sephora.com/product/P77785456",
+    "attributes": [
+      "cream",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "rare-perfect-strokes-liner",
+    "brand": "Rare Beauty",
+    "name": "Perfect Strokes Matte Liquid Liner",
+    "cardName": "Perfect Strokes Liner",
+    "category": "eyes",
+    "price": 22.0,
+    "rating": 4.1,
+    "reviewCount": 2762,
+    "imageName": "product_rare-perfect-strokes-liner",
+    "symbol": "pencil.line",
+    "shades": [
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "464345"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "An easy-glide, waterproof liquid eyeliner that lays down the perfect rich, matte brown color with expert precision every time.",
+    "howToUse": "Shake well—keep the cap on—before each use to activate color pigments. For instant definition, glide pointed tip along lash line.",
+    "source": "https://www.sephora.com/product/P77484859",
+    "attributes": [
+      "cream",
+      "matte",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "loreal-infallible-fresh-wear",
+    "brand": "L'Oréal",
+    "name": "Infallible Up to 32 Hour Fresh Wear Foundation",
+    "cardName": "Infallible Fresh Wear",
+    "category": "face",
+    "price": 18.99,
+    "rating": 4.3,
+    "reviewCount": 4549,
+    "imageName": "product_loreal-infallible-fresh-wear",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "395 Rose Pearl",
+        "detail": "",
+        "hex": "FDEAD8",
+        "tone": "fair"
+      },
+      {
+        "name": "405 Porcelain",
+        "detail": "",
+        "hex": "F9DEC2",
+        "tone": "fair"
+      },
+      {
+        "name": "411 Beige Ivory",
+        "detail": "",
+        "hex": "F5D7BB",
+        "tone": "fair"
+      },
+      {
+        "name": "415 Rose Ivory",
+        "detail": "",
+        "hex": "ECC9AD",
+        "tone": "light"
+      },
+      {
+        "name": "430 Ivory Buff",
+        "detail": "",
+        "hex": "E8C19D",
+        "tone": "light"
+      },
+      {
+        "name": "440 Natural Rose",
+        "detail": "",
+        "hex": "E6BA92",
+        "tone": "light"
+      },
+      {
+        "name": "450 Rose Beige",
+        "detail": "",
+        "hex": "E5B996",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "460 Golden Beige",
+        "detail": "",
+        "hex": "E1B590",
+        "tone": "tan"
+      },
+      {
+        "name": "475 Sun Beige",
+        "detail": "",
+        "hex": "DBA46E",
+        "tone": "tan"
+      },
+      {
+        "name": "481 Cool Sand",
+        "detail": "",
+        "hex": "EDB584",
+        "tone": "lightMedium"
+      },
+      {
+        "name": "485 Golden Sun",
+        "detail": "",
+        "hex": "D79F69",
+        "tone": "tan"
+      },
+      {
+        "name": "490 Golden Amber",
+        "detail": "",
+        "hex": "D2976A",
+        "tone": "deep"
+      },
+      {
+        "name": "505 Toffee",
+        "detail": "",
+        "hex": "C58757",
+        "tone": "deep"
+      },
+      {
+        "name": "511 Maple",
+        "detail": "",
+        "hex": "B27340",
+        "tone": "deep"
+      },
+      {
+        "name": "525 Deep Golden",
+        "detail": "",
+        "hex": "A0562A",
+        "tone": "deepDark"
+      },
+      {
+        "name": "535 Espresso",
+        "detail": "",
+        "hex": "7C492A",
+        "tone": "deepDark"
+      }
+    ],
+    "concerns": [
+      "oily",
+      "unevenTone",
+      "texture"
+    ],
+    "styles": [
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "L'Oréal Infallible Fresh Wear 32HR Foundation is their most lightweight, breathable, longwear foundation. Defies transfer hour after hour.",
+    "howToUse": "Shake well, then blend from the center of the face outward with a brush or sponge.",
+    "source": "https://www.ulta.com/p/infallible-up-32-hour-fresh-wear-foundation-pimprod2002481",
+    "attributes": [
+      "cream",
+      "longWear",
+      "matte"
+    ]
+  },
+  {
+    "id": "elf-power-grip",
+    "brand": "e.l.f.",
+    "name": "Power Grip Primer",
+    "cardName": "Power Grip Primer",
+    "category": "face",
+    "price": 11.0,
+    "rating": 4.7,
+    "reviewCount": 24689,
+    "imageName": "product_elf-power-grip",
+    "symbol": "drop",
+    "shades": [],
+    "concerns": [
+      "dryness",
+      "texture",
+      "redness"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "e.l.f. Cosmetics Power Grip Primer is a gel-based, ingredient-driven face primer that smoothes skin while gripping your makeup to help it last longer.",
+    "howToUse": "Smooth a thin layer over clean skin and let it get tacky before applying makeup.",
+    "source": "https://www.ulta.com/p/power-grip-primer-pimprod2030073",
+    "attributes": [
+      "cream",
+      "hydrating"
+    ]
+  },
+  {
+    "id": "maybelline-age-rewind",
+    "brand": "Maybelline",
+    "name": "Instant Age Rewind Eraser Treatment Foundation",
+    "cardName": "Age Rewind Foundation",
+    "category": "face",
+    "price": 16.99,
+    "rating": 4.1,
+    "reviewCount": 1287,
+    "imageName": "product_maybelline-age-rewind",
+    "symbol": "drop.halffull",
+    "shades": [
+      {
+        "name": "130",
+        "detail": "",
+        "hex": "F6BC85",
+        "tone": "fair"
+      },
+      {
+        "name": "150",
+        "detail": "",
+        "hex": "F9B483",
+        "tone": "light"
+      },
+      {
+        "name": "190",
+        "detail": "",
+        "hex": "EDB27D",
+        "tone": "tan"
+      },
+      {
+        "name": "300",
+        "detail": "",
+        "hex": "D18D64",
+        "tone": "deep"
+      }
+    ],
+    "concerns": [
+      "fineLines",
+      "darkCircles",
+      "unevenTone"
+    ],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "Maybelline New York's Instant Age Rewind Eraser Treatment Foundation with SPF 20 blurs early signs of aging in an instant. The blurring sponge-tip applicator delivers medium coverage.",
+    "howToUse": "Twist the cushion applicator and dab onto skin, building coverage where needed.",
+    "source": "https://www.ulta.com/p/instant-age-rewind-eraser-treatment-foundation-pimprod2043641",
+    "attributes": [
+      "blurring",
+      "hydrating",
+      "spf"
+    ]
+  },
+  {
+    "id": "elf-camo-liquid-blush",
+    "brand": "e.l.f.",
+    "name": "Camo Liquid Blush",
+    "cardName": "Camo Liquid Blush",
+    "category": "cheeks",
+    "price": 8.0,
+    "rating": 4.7,
+    "reviewCount": 8647,
+    "imageName": "product_elf-camo-liquid-blush",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "Berry Well",
+        "detail": "",
+        "hex": "8F1429"
+      },
+      {
+        "name": "Bold-Faced Lilac",
+        "detail": "",
+        "hex": "CB7592"
+      },
+      {
+        "name": "Bronze Bombshell",
+        "detail": "",
+        "hex": "7B372A"
+      },
+      {
+        "name": "Cheeky Lychee",
+        "detail": "",
+        "hex": "DD605E"
+      },
+      {
+        "name": "Comin' In Hot Pink",
+        "detail": "",
+        "hex": "D9285C"
+      },
+      {
+        "name": "Copper Etiquette",
+        "detail": "",
+        "hex": "C95A49"
+      },
+      {
+        "name": "Coral Crush",
+        "detail": "",
+        "hex": "EA5D4C"
+      },
+      {
+        "name": "Dusty Rosé",
+        "detail": "",
+        "hex": "C46D5C"
+      },
+      {
+        "name": "Gorg Orange",
+        "detail": "",
+        "hex": "DA2D1C"
+      },
+      {
+        "name": "Peach Perfect",
+        "detail": "",
+        "hex": "EC8F6D"
+      },
+      {
+        "name": "Pinky Promise",
+        "detail": "",
+        "hex": "F25357"
+      },
+      {
+        "name": "Suave Mauve",
+        "detail": "",
+        "hex": "954949"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "softGlam",
+      "light"
+    ],
+    "details": "e.l.f. Cosmetics' pigment-packed Camo Liquid Blush gives cheeks a long-lasting, dewy flush that's flattering as e.l.f. This liquid blush is lightweight and effortlessly blends out to a soft finish while the rounded, grooved applicator applies the perfect amount of blush every time.",
+    "howToUse": "Dot a small amount onto cheeks and blend quickly with fingertips or a sponge.",
+    "source": "https://www.ulta.com/p/camo-liquid-blush-pimprod2042954",
+    "attributes": [
+      "cream",
+      "luminous"
+    ]
+  },
+  {
+    "id": "elf-putty-blush",
+    "brand": "e.l.f.",
+    "name": "Putty Blush",
+    "cardName": "Putty Blush",
+    "category": "cheeks",
+    "price": 8.0,
+    "rating": 4.4,
+    "reviewCount": 2149,
+    "imageName": "product_elf-putty-blush",
+    "symbol": "circle.fill",
+    "shades": [
+      {
+        "name": "Bahamas",
+        "detail": "",
+        "hex": "F88B6C"
+      },
+      {
+        "name": "Bali",
+        "detail": "",
+        "hex": "BF584A"
+      },
+      {
+        "name": "Bora Bora",
+        "detail": "",
+        "hex": "FB81A8"
+      },
+      {
+        "name": "Caribbean",
+        "detail": "",
+        "hex": "BA4456"
+      },
+      {
+        "name": "Tahiti",
+        "detail": "",
+        "hex": "E57572"
+      },
+      {
+        "name": "Turks and Caicos",
+        "detail": "",
+        "hex": "FE8A78"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "fineLines"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "Say hello to that island glow! The e.l.f. Cosmetics Putty Blush is a lightweight but buildable, putty-to-powder blush that blends seamlessly into skin.",
+    "howToUse": "Tap onto the apples of the cheeks with fingers and blend upward.",
+    "source": "https://www.ulta.com/p/putty-blush-pimprod2020788",
+    "attributes": [
+      "buildable",
+      "cream",
+      "luminous",
+      "powder"
+    ]
+  },
+  {
+    "id": "loreal-lumi-glotion",
+    "brand": "L'Oréal",
+    "name": "Lumi Glotion Natural Glow Enhancer XL, Face & Body",
+    "cardName": "Lumi Glotion",
+    "category": "cheeks",
+    "price": 29.99,
+    "rating": 4.6,
+    "reviewCount": 47,
+    "imageName": "product_loreal-lumi-glotion",
+    "symbol": "sun.max.fill",
+    "shades": [
+      {
+        "name": "Light",
+        "detail": "",
+        "hex": "EEBCA9"
+      },
+      {
+        "name": "Medium",
+        "detail": "",
+        "hex": "D4A18E"
+      },
+      {
+        "name": "Deep",
+        "detail": "",
+        "hex": "C48D6F"
+      }
+    ],
+    "concerns": [
+      "dryness",
+      "unevenTone"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "bronzy"
+    ],
+    "details": "L'Oreal Paris True Match Lumi Glotion is a luminous tinted moisturizer infused with glycerin and shea butter for instant hydration and a radiant finish. The highlighting formula is lightweight and delivers an illuminating color tint for healthy, glowing skin.",
+    "howToUse": "Wear alone, mix with foundation, or apply to high points for a glow.",
+    "source": "https://www.ulta.com/p/lumi-glotion-natural-glow-enhancer-xl-face-body-pimprod2055367",
+    "attributes": [
+      "brightening",
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "maybelline-cloudtopia",
+    "brand": "Maybelline",
+    "name": "Cloudtopia Cheek and Lip Mousse",
+    "cardName": "Cloudtopia Cheek & Lip",
+    "category": "cheeks",
+    "price": 9.99,
+    "rating": 4.6,
+    "reviewCount": 465,
+    "imageName": "product_maybelline-cloudtopia",
+    "symbol": "cloud.fill",
+    "shades": [
+      {
+        "name": "Coral Illusion",
+        "detail": "",
+        "hex": "E5605F"
+      },
+      {
+        "name": "Divine Crimson",
+        "detail": "",
+        "hex": "D41F2A"
+      },
+      {
+        "name": "Dreamy Dawn",
+        "detail": "",
+        "hex": "DB6B66"
+      },
+      {
+        "name": "Etheral Rouge",
+        "detail": "",
+        "hex": "AF1E2B"
+      },
+      {
+        "name": "Enchanted Mauve",
+        "detail": "",
+        "hex": "C95153"
+      },
+      {
+        "name": "Moonlit Rose",
+        "detail": "",
+        "hex": "DF4452"
+      },
+      {
+        "name": "Pink Daydream",
+        "detail": "",
+        "hex": "F63C61"
+      },
+      {
+        "name": "Solar Serenity",
+        "detail": "",
+        "hex": "DD604A"
+      },
+      {
+        "name": "Toasted Sky",
+        "detail": "",
+        "hex": "9A452D"
+      },
+      {
+        "name": "Twilight Berry",
+        "detail": "",
+        "hex": "933440"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "softGlam"
+    ],
+    "details": "Maybelline super pigmented multi-use Cloudtopia Cheek and Lip Mousse is light as a cloud. Get a blurred matte flush that lasts on cheeks, lips, or both.",
+    "howToUse": "Dab onto cheeks and lips and blur with fingertips.",
+    "source": "https://www.ulta.com/p/cloudtopia-cheek-lip-mousse-pimprod2055750",
+    "attributes": [
+      "blurring",
+      "cream",
+      "matte"
+    ]
+  },
+  {
+    "id": "loreal-panorama",
+    "brand": "L'Oréal",
+    "name": "Voluminous Panorama Washable Mascara",
+    "cardName": "Panorama Mascara",
+    "category": "eyes",
+    "price": 15.99,
+    "rating": 4.5,
+    "reviewCount": 1762,
+    "imageName": "product_loreal-panorama",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "All Night Black",
+        "detail": "",
+        "hex": "000000"
+      },
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "34312E"
+      },
+      {
+        "name": "Blackest Black",
+        "detail": "",
+        "hex": "1F1E1D"
+      },
+      {
+        "name": "Black Brown",
+        "detail": "",
+        "hex": "1B1616"
+      },
+      {
+        "name": "Brown Leather Washable",
+        "detail": "",
+        "hex": "2C1E1E"
+      },
+      {
+        "name": "Blue Suede Washable",
+        "detail": "",
+        "hex": "010102"
+      },
+      {
+        "name": "Burgundy Cashmere Washable",
+        "detail": "",
+        "hex": "260812"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam",
+      "fullGlam"
+    ],
+    "details": "L'Oréal Paris' Voluminous Panorama Washable Mascara is a volumizing mascara that is clump, flake, and smudge-resistant, for up to 24hrs wear. The multi-level bristle brush easily grabs each lash, inner to outer corner for even application from root to tip.",
+    "howToUse": "Sweep from root to tip, wiggling outward to fan lashes.",
+    "source": "https://www.ulta.com/p/voluminous-panorama-washable-mascara-pimprod2042577",
+    "attributes": [
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "loreal-paradise-big-deal",
+    "brand": "L'Oréal",
+    "name": "Paradise Big Deal Volumizing and Lengthening Washable Mascara",
+    "cardName": "Paradise Big Deal Mascara",
+    "category": "eyes",
+    "price": 15.99,
+    "rating": 4.5,
+    "reviewCount": 535,
+    "imageName": "product_loreal-paradise-big-deal",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "Blackest Black",
+        "detail": "",
+        "hex": "000000"
+      },
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "000000"
+      },
+      {
+        "name": "Black Brown",
+        "detail": "",
+        "hex": "4E3323"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "fullGlam",
+      "softGlam",
+      "dark"
+    ],
+    "details": "Make your lashes a Big Deal! L'Oréal Paris Paradise Big Deal Volumizing and Lengthening Washable Mascara delivers endless volume & length.",
+    "howToUse": "Apply in zig-zag strokes from root to tip; layer for more volume.",
+    "source": "https://www.ulta.com/p/paradise-big-deal-volumizing-lengthening-washable-mascara-pimprod2049085",
+    "attributes": [
+      "buildable"
+    ]
+  },
+  {
+    "id": "maybelline-tattoo-studio",
+    "brand": "Maybelline",
+    "name": "Tattoo Studio Sharpenable Gel Pencil Eyeliner",
+    "cardName": "Tattoo Studio Gel Pencil",
+    "category": "eyes",
+    "price": 11.99,
+    "rating": 4.1,
+    "reviewCount": 2964,
+    "imageName": "product_maybelline-tattoo-studio",
+    "symbol": "pencil.line",
+    "shades": [
+      {
+        "name": "Stardust Chrome Tattoo Studio Sharpenable Gel Pencil Waterproof Eyeliner",
+        "detail": "",
+        "hex": "C0A2D8"
+      },
+      {
+        "name": "Deep Onyx",
+        "detail": "",
+        "hex": "000000"
+      },
+      {
+        "name": "Bold Brown",
+        "detail": "",
+        "hex": "413535"
+      },
+      {
+        "name": "Striking Navy",
+        "detail": "",
+        "hex": "1E2B4B"
+      },
+      {
+        "name": "Polished White",
+        "detail": "",
+        "hex": "F2F2F2"
+      },
+      {
+        "name": "Intense Charcoal",
+        "detail": "",
+        "hex": "625E5B"
+      },
+      {
+        "name": "Metallic Nights",
+        "detail": "",
+        "hex": "000000"
+      },
+      {
+        "name": "Hunter Green",
+        "detail": "",
+        "hex": "29593F"
+      },
+      {
+        "name": "Galactic Cobalt",
+        "detail": "",
+        "hex": "5757E5"
+      },
+      {
+        "name": "Aurora Flip Tattoo Studio Sharpenable Gel Pencil Waterproof Eyeliner",
+        "detail": "",
+        "hex": "655A52"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "Maybelline Tattoo Studio Sharpenable Gel Pencil draws on up to 36-hour tattoo intensity. Waterproof, smudge resistant, sebum resistant formula.",
+    "howToUse": "Line the lash line or waterline, then smudge within 30 seconds if you want a softer look.",
+    "source": "https://www.ulta.com/p/tattoo-studio-sharpenable-gel-pencil-eyeliner-pimprod2002765",
+    "attributes": [
+      "cream",
+      "longWear",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "elf-lash-n-roll",
+    "brand": "e.l.f.",
+    "name": "Lash 'N Roll Curling & Lifting Mascara",
+    "cardName": "Lash 'N Roll Mascara",
+    "category": "eyes",
+    "price": 7.0,
+    "rating": 4.5,
+    "reviewCount": 5009,
+    "imageName": "product_elf-lash-n-roll",
+    "symbol": "eye.fill",
+    "shades": [
+      {
+        "name": "Black",
+        "detail": "",
+        "hex": "18191B"
+      },
+      {
+        "name": "Deep Brown",
+        "detail": "",
+        "hex": "291A19"
+      },
+      {
+        "name": "Pitch Black",
+        "detail": "",
+        "hex": "2F2F31"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "e.l.f. Cosmetics Lash 'N Roll Mascara is a curling mascara that features a curved, double-sided brush to lift, separate, and coat each lash for maximum curl, lift, and drama. The long-lasting formula is smudge- and flake-resistant to keep your lashes up - no lash curler necessary.",
+    "howToUse": "Press the brush into the lash roots and roll upward to curl and lift.",
+    "source": "https://www.ulta.com/p/lash-n-roll-curling-lifting-mascara-pimprod2039885",
+    "attributes": []
+  },
+  {
+    "id": "elf-wow-brow",
+    "brand": "e.l.f.",
+    "name": "Wow Brow Gel",
+    "cardName": "Wow Brow Gel",
+    "category": "eyes",
+    "price": 6.0,
+    "rating": 4.5,
+    "reviewCount": 552,
+    "imageName": "product_elf-wow-brow",
+    "symbol": "pencil",
+    "shades": [
+      {
+        "name": "Brunette",
+        "detail": "",
+        "hex": "725044"
+      },
+      {
+        "name": "Deep Brown",
+        "detail": "",
+        "hex": "3B312F"
+      },
+      {
+        "name": "Neutral Brown",
+        "detail": "",
+        "hex": "463B37"
+      },
+      {
+        "name": "Taupe",
+        "detail": "",
+        "hex": "7F6453"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "natural",
+      "softGlam"
+    ],
+    "details": "e.l.f. Cosmetics Wow Brow Gel is a buildable, fiber-infused brow gel that makes your natural brows look fuller.",
+    "howToUse": "Brush through brows in short upward strokes to shape and set.",
+    "source": "https://www.ulta.com/p/wow-brow-gel-pimprod2003078",
+    "attributes": [
+      "buildable",
+      "cream"
+    ]
+  },
+  {
+    "id": "stila-stay-all-day",
+    "brand": "Stila",
+    "name": "Stay All Day InkWear Liquid Eye Liner",
+    "cardName": "Stay All Day Liner",
+    "category": "eyes",
+    "price": 26.0,
+    "rating": 4.4,
+    "reviewCount": 974,
+    "imageName": "product_stila-stay-all-day",
+    "symbol": "pencil.line",
+    "shades": [
+      {
+        "name": "Blue Moon",
+        "detail": "",
+        "hex": "4F5F7A"
+      },
+      {
+        "name": "Bronze Blaze",
+        "detail": "",
+        "hex": "CC9586"
+      },
+      {
+        "name": "Cherry Noir",
+        "detail": "",
+        "hex": "843746"
+      },
+      {
+        "name": "Goldie Luxe",
+        "detail": "",
+        "hex": "EAC18B"
+      },
+      {
+        "name": "Midnight Hour",
+        "detail": "",
+        "hex": "4E4F53"
+      },
+      {
+        "name": "Silver Flash",
+        "detail": "",
+        "hex": "DDDBDB"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "softGlam",
+      "fullGlam",
+      "dark"
+    ],
+    "details": "Stila 24-Hour Stay All Day InkWear Liquid Eye Liner in rich, glide-on hues - from sparkle to shimmer to metallic finishes.",
+    "howToUse": "Draw along the upper lash line from inner to outer corner; flick out for a wing.",
+    "source": "https://www.ulta.com/p/stay-all-day-inkwear-liquid-eye-liner-pimprod2053087",
+    "attributes": [
+      "cream",
+      "longWear",
+      "luminous"
+    ]
+  },
+  {
+    "id": "loreal-matte-resistance",
+    "brand": "L'Oréal",
+    "name": "Infallible Matte Resistance Liquid Lipstick",
+    "cardName": "Matte Resistance Lipstick",
+    "category": "lips",
+    "price": 15.99,
+    "rating": 4.4,
+    "reviewCount": 492,
+    "imageName": "product_loreal-matte-resistance",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "100 Fairytale Ending",
+        "detail": "",
+        "hex": "E39A88"
+      },
+      {
+        "name": "105 Breakfast In Bed",
+        "detail": "",
+        "hex": "C58874"
+      },
+      {
+        "name": "115 Snooze Your Alarm",
+        "detail": "",
+        "hex": "BD5D4E"
+      },
+      {
+        "name": "150 Lazy Sunday",
+        "detail": "",
+        "hex": "9C4844"
+      },
+      {
+        "name": "210 Tropical Vacay",
+        "detail": "",
+        "hex": "E6726D"
+      },
+      {
+        "name": "230 Shopping Spree",
+        "detail": "",
+        "hex": "CA5457"
+      },
+      {
+        "name": "245 French Kiss",
+        "detail": "",
+        "hex": "D51D3C"
+      },
+      {
+        "name": "420 Le Rouge Paris",
+        "detail": "",
+        "hex": "95080D"
+      },
+      {
+        "name": "560 Pay Day",
+        "detail": "",
+        "hex": "811B3B"
+      },
+      {
+        "name": "600 First Kiss",
+        "detail": "",
+        "hex": "B25B5F"
+      },
+      {
+        "name": "601 Worth It",
+        "detail": "",
+        "hex": "C0716C"
+      },
+      {
+        "name": "630 Rosé Heat",
+        "detail": "",
+        "hex": "B95955"
+      },
+      {
+        "name": "635 Worth It Medium",
+        "detail": "",
+        "hex": "9F5C5C"
+      },
+      {
+        "name": "645 Crush Alert",
+        "detail": "",
+        "hex": "9F4045"
+      },
+      {
+        "name": "655 Proposal",
+        "detail": "",
+        "hex": "B85668"
+      },
+      {
+        "name": "660 First Love",
+        "detail": "",
+        "hex": "903842"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "fullGlam",
+      "dark",
+      "softGlam"
+    ],
+    "details": "Discover L'Oréal's powdery matte Infallible Matte Resistance Liquid Lipstick that lasts up to 16 hours. Get bold color payoff in one swipe that's transfer & smudge-resistant, for an all-day matte finish.",
+    "howToUse": "Line and fill lips with the applicator; let set for a minute before blotting.",
+    "source": "https://www.ulta.com/p/infallible-matte-resistance-liquid-lipstick-pimprod2039455",
+    "attributes": [
+      "cream",
+      "longWear",
+      "matte"
+    ]
+  },
+  {
+    "id": "maybelline-vinyl-ink",
+    "brand": "Maybelline",
+    "name": "Super Stay Vinyl Ink Liquid Lipcolor",
+    "cardName": "SuperStay Vinyl Ink",
+    "category": "lips",
+    "price": 13.99,
+    "rating": 4.5,
+    "reviewCount": 15599,
+    "imageName": "product_maybelline-vinyl-ink",
+    "symbol": "mouth.fill",
+    "shades": [
+      {
+        "name": "Captivated",
+        "detail": "",
+        "hex": "C37C76"
+      },
+      {
+        "name": "Charmed",
+        "detail": "",
+        "hex": "C76E6A"
+      },
+      {
+        "name": "Cheeky",
+        "detail": "",
+        "hex": "AD5857"
+      },
+      {
+        "name": "Coy",
+        "detail": "",
+        "hex": "C44864"
+      },
+      {
+        "name": "Edgy",
+        "detail": "",
+        "hex": "B6406A"
+      },
+      {
+        "name": "Fearless",
+        "detail": "",
+        "hex": "4B262B"
+      },
+      {
+        "name": "Lippy",
+        "detail": "",
+        "hex": "960F22"
+      },
+      {
+        "name": "Peachy",
+        "detail": "",
+        "hex": "C35352"
+      },
+      {
+        "name": "Peppy",
+        "detail": "",
+        "hex": "A94C4E"
+      },
+      {
+        "name": "Punchy",
+        "detail": "",
+        "hex": "965850"
+      },
+      {
+        "name": "Red-Hot",
+        "detail": "",
+        "hex": "E11010"
+      },
+      {
+        "name": "Royal",
+        "detail": "",
+        "hex": "770616"
+      },
+      {
+        "name": "Striking",
+        "detail": "",
+        "hex": "EC0072"
+      },
+      {
+        "name": "Sultry",
+        "detail": "",
+        "hex": "BF4559"
+      },
+      {
+        "name": "Upbeat",
+        "detail": "",
+        "hex": "FF80A1"
+      },
+      {
+        "name": "Wicked",
+        "detail": "",
+        "hex": "BA0025"
+      }
+    ],
+    "concerns": [],
+    "styles": [
+      "fullGlam",
+      "dark",
+      "softGlam"
+    ],
+    "details": "Shake up your longwear with Maybelline's budge-resistant Super Stay Vinyl Ink Liquid Lipcolor. With up to 16HR wear, the color Lock formula defies smudging and transfer.",
+    "howToUse": "Shake for 5 seconds, then apply a thin layer starting at the center of the lips.",
+    "source": "https://www.ulta.com/p/super-stay-vinyl-ink-liquid-lipcolor-pimprod2031822",
+    "attributes": [
+      "cream",
+      "longWear"
+    ]
+  },
+  {
+    "id": "maybelline-lifter-gloss",
+    "brand": "Maybelline",
+    "name": "Lifter Gloss with Hyaluronic Acid",
+    "cardName": "Lifter Gloss",
+    "category": "lips",
+    "price": 12.99,
+    "rating": 4.6,
+    "reviewCount": 4051,
+    "imageName": "product_maybelline-lifter-gloss",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "Brass",
+        "detail": "",
+        "hex": "E4969E"
+      },
+      {
+        "name": "Heat",
+        "detail": "",
+        "hex": "DF4F65"
+      },
+      {
+        "name": "Ice",
+        "detail": "",
+        "hex": "F1CECB"
+      },
+      {
+        "name": "Moon",
+        "detail": "",
+        "hex": "DA8985"
+      },
+      {
+        "name": "Opal",
+        "detail": "",
+        "hex": "EEBDB9"
+      },
+      {
+        "name": "Pearl",
+        "detail": "",
+        "hex": "DFDEDB"
+      },
+      {
+        "name": "Petal",
+        "detail": "",
+        "hex": "D76A7A"
+      },
+      {
+        "name": "Reef",
+        "detail": "",
+        "hex": "ED9594"
+      },
+      {
+        "name": "Silk",
+        "detail": "",
+        "hex": "E57E81"
+      },
+      {
+        "name": "Stone",
+        "detail": "",
+        "hex": "C77865"
+      },
+      {
+        "name": "Topaz",
+        "detail": "",
+        "hex": "AA574A"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light",
+      "softGlam"
+    ],
+    "details": "Maybelline New York's Lifter Gloss with hyaluronic acid delivers glossy lips and a full look. Drench lips with hydrating shine for a lifted look.",
+    "howToUse": "Apply over bare lips or on top of lipstick or liner.",
+    "source": "https://www.ulta.com/p/lifter-gloss-with-hyaluronic-acid-pimprod2016411",
+    "attributes": [
+      "hydrating",
+      "luminous"
+    ]
+  },
+  {
+    "id": "elf-glow-reviver",
+    "brand": "e.l.f.",
+    "name": "Glow Reviver Lip Oil",
+    "cardName": "Glow Reviver Lip Oil",
+    "category": "lips",
+    "price": 9.0,
+    "rating": 4.7,
+    "reviewCount": 11774,
+    "imageName": "product_elf-glow-reviver",
+    "symbol": "drop.fill",
+    "shades": [
+      {
+        "name": "Coral Fixation",
+        "detail": "",
+        "hex": "F9B7A7"
+      },
+      {
+        "name": "Crystal Clear",
+        "detail": "",
+        "hex": "E2E2E2"
+      },
+      {
+        "name": "Honey Talks",
+        "detail": "",
+        "hex": "76463D"
+      },
+      {
+        "name": "Hot As Fudge",
+        "detail": "",
+        "hex": "562B25"
+      },
+      {
+        "name": "It's Giving Guava",
+        "detail": "",
+        "hex": "D36962"
+      },
+      {
+        "name": "Jam Session",
+        "detail": "",
+        "hex": "300002"
+      },
+      {
+        "name": "Money Mauve",
+        "detail": "",
+        "hex": "714548"
+      },
+      {
+        "name": "Pink Quartz",
+        "detail": "",
+        "hex": "F1BEC7"
+      },
+      {
+        "name": "Red Delicious",
+        "detail": "",
+        "hex": "DA001F"
+      },
+      {
+        "name": "Rose Envy",
+        "detail": "",
+        "hex": "BD353D"
+      }
+    ],
+    "concerns": [
+      "dryness"
+    ],
+    "styles": [
+      "natural",
+      "light"
+    ],
+    "details": "Nourish and hydrate your lips while enhancing your pout's natural glow with e.l.f. Cosmetics' addicting Glow Reviver Lip Oil. The non-sticky formula imbues your pout with a sheer tint of color and glass-like shine while boosting your lips' natural hue.",
+    "howToUse": "Swipe over bare lips for a sheer tint and glossy shine.",
+    "source": "https://www.ulta.com/p/glow-reviver-lip-oil-pimprod2042290",
+    "attributes": [
+      "cream",
+      "hydrating",
+      "luminous"
+    ]
+  }
+]
