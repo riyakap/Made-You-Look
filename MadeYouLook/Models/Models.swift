@@ -292,12 +292,17 @@ struct Product: Identifiable, Hashable, Codable {
     let howToUse: String
     /// Where the product data came from (retailer or brand page).
     var source: String? = nil
+    /// Optional overrides from products.json (see ProductGuide.swift for the defaults).
+    var buyURL: String? = nil
+    var videoURL: String? = nil
+    var steps: [String] = []
 
     var priceText: String { Self.formatPrice(price) }
 
     enum CodingKeys: String, CodingKey {
         case id, brand, name, cardName, category, price, rating, reviewCount, imageName, symbol
         case shades, concerns, styles, attributes, details, howToUse, source
+        case buyURL, videoURL, steps
     }
 
     init(from decoder: Decoder) throws {
@@ -321,6 +326,9 @@ struct Product: Identifiable, Hashable, Codable {
         details = try c.decodeIfPresent(String.self, forKey: .details) ?? ""
         howToUse = try c.decodeIfPresent(String.self, forKey: .howToUse) ?? ""
         source = try c.decodeIfPresent(String.self, forKey: .source)
+        buyURL = try c.decodeIfPresent(String.self, forKey: .buyURL)
+        videoURL = try c.decodeIfPresent(String.self, forKey: .videoURL)
+        steps = try c.decodeIfPresent([String].self, forKey: .steps) ?? []
     }
 
     var reviews: String {
