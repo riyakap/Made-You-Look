@@ -63,6 +63,7 @@ enum Route: Hashable {
     case look(String)
     case recommendations
     case bag
+    case orders
     case ownedProducts
     case recent
     case savedList(SavedListKind)
@@ -85,6 +86,7 @@ extension View {
                 if let look = Catalog.look(id) { LookDetailView(look: look) }
             case .recommendations: RecommendationsView()
             case .bag: BagView()
+            case .orders: OrdersView()
             case .ownedProducts: OwnedProductsView()
             case .recent: RecentProductsView()
             case .savedList(let kind): SavedListView(kind: kind)
