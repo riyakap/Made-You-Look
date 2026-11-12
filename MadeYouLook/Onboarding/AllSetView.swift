@@ -4,6 +4,7 @@ import SwiftUI
 struct AllSetView: View {
     @Environment(AppStore.self) private var store
     @State private var showingEmailSignUp = false
+    @State private var showingSignIn = false
 
     var body: some View {
         VStack(spacing: 16) {
@@ -63,7 +64,7 @@ struct AllSetView: View {
 
             HStack(spacing: 4) {
                 Text("Already have an account?").foregroundStyle(Theme.inkSecondary)
-                Button("Sign In") { store.signIn() }
+                Button("Sign In") { showingSignIn = true }
                     .fontWeight(.semibold)
                     .foregroundStyle(Theme.primary)
             }
@@ -74,6 +75,9 @@ struct AllSetView: View {
         .sheet(isPresented: $showingEmailSignUp) {
             EmailSignUpSheet()
                 .presentationDetents([.medium])
+        }
+        .sheet(isPresented: $showingSignIn) {
+            SignInView().presentationDetents([.large])
         }
     }
 }
