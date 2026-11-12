@@ -3,6 +3,7 @@ import SwiftUI
 struct ProductDetailView: View {
     @Environment(AppStore.self) private var store
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.openURL) private var openURL
     let product: Product
 
     @State private var shadeIndex = 0
@@ -10,6 +11,7 @@ struct ProductDetailView: View {
     @State private var imagePage = 0
     @State private var showingDetails = false
     @State private var toast: String?
+    @State private var webLink: WebLink?
 
     private var shade: Shade { product.shades[shadeIndex] }
     private var isOwned: Bool { store.profile.ownedProductIDs.contains(product.id) }
@@ -52,6 +54,8 @@ struct ProductDetailView: View {
                 .padding(.horizontal, 24)
                 .padding(.top, 6)
 
+                buyButton
+
                 Button {
                     store.profile.ownedProductIDs.toggle(product.id)
                 } label: {
@@ -64,6 +68,8 @@ struct ProductDetailView: View {
 
                 whyForYou
 
+                tutorial
+
                 details
             }
             .padding(.bottom, 30)
@@ -72,6 +78,9 @@ struct ProductDetailView: View {
         .appBackground()
         .toolbar(.hidden, for: .navigationBar)
         .toast($toast)
+        .fullScreenCover(item: $webLink) { link in
+            SafariView(url: link.url).ignoresSafeArea()
+        }
         .onAppear {
             shadeIndex = store.recommendedShadeIndex(for: product)
             store.markViewed(product)
@@ -210,6 +219,67 @@ struct ProductDetailView: View {
             .padding(.horizontal, 24)
             .padding(.top, 8)
         }
+    }
+
+    /// "Buy at Sephora / Ulta": opens the real product page (or a search) in an in-app browser.
+    private var buyButton: some View {
+        VStack(spacing: 6) {
+            Button {
+                webLink = WebLink(url: product.buyLink)
+            } label: {
+                Label("Buy at \(product.retailerName)", systemImage: "arrow.up.right.square")
+                    .font(Theme.body(16, .medium))
+                    .foregroundStyle(Theme.primary)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .overlay(Capsule().strokeBorder(Theme.primary, lineWidth: 1.5))
+            }
+            Text(product.hasDirectBuyPage
+                 ? "Opens this product at \(product.retailerName)."
+                 : "Opens a \(product.retailerName) search for this product.")
+                .font(Theme.body(11))
+                .foregroundStyle(Theme.inkSecondary)
+        }
+        .padding(.horizontal, 24)
+    }
+
+    /// Written steps plus a YouTube link, for every product.
+    private var tutorial: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("How to apply")
+                .font(Theme.display(18))
+                .foregroundStyle(Theme.ink)
+
+            ForEach(Array(product.tutorialSteps.enumerated()), id: \.offset) { index, step in
+                HStack(alignment: .top, spacing: 12) {
+                    Text("\(index + 1)")
+                        .font(Theme.body(12, .semibold))
+                        .foregroundStyle(.white)
+                        .frame(width: 24, height: 24)
+                        .background(Theme.primary, in: Circle())
+                    Text(step)
+                        .font(Theme.body(14))
+                        .foregroundStyle(Theme.ink)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .accessibilityElement(children: .combine)
+                .accessibilityLabel("Step \(index + 1): \(step)")
+            }
+
+            Button {
+                openURL(product.videoLink)
+            } label: {
+                Label(product.hasDirectVideo ? "Watch the tutorial on YouTube" : "Find tutorials on YouTube",
+                      systemImage: "play.rectangle.fill")
+            }
+            .buttonStyle(PrimaryButtonStyle(height: 46))
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardStyle(cornerRadius: 12)
+        .padding(.horizontal, 24)
+        .padding(.top, 8)
     }
 
     private var details: some View {
