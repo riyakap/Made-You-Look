@@ -19,6 +19,7 @@ final class AppStore {
     var savedLookIDs: [String] = [] { didSet { save() } }
     var savedTutorialIDs: [String] = [] { didSet { save() } }
     var bag: [BagItem] = [] { didSet { save() } }
+    var orders: [Order] = [] { didSet { save() } }
     var recentProductIDs: [String] = [] { didSet { save() } }
     var settings = AppSettings() { didSet { save() } }
 
@@ -107,6 +108,7 @@ final class AppStore {
         savedLookIDs = []
         savedTutorialIDs = []
         bag = []
+        orders = []
         recentProductIDs = []
         settings = AppSettings()
         selectedTab = .home
@@ -168,6 +170,56 @@ final class AppStore {
         } else {
             bag[index].quantity = quantity
         }
+    }
+
+    // MARK: - Checkout
+
+    /// Shipping is free on bags of $35 or more.
+    static let freeShippingThreshold = 35.0
+    static let flatShipping = 4.95
+
+    /// The 10% welcome offer from the sign-up screen applies to the first order only.
+    var qualifiesForFirstOrderDiscount: Bool { orders.isEmpty }
+
+    var bagDiscount: Double {
+        qualifiesForFirstOrderDiscount ? (bagSubtotal * 0.10 * 100).rounded() / 100 : 0
+    }
+
+    var bagShipping: Double {
+        bag.isEmpty || bagSubtotal >= Self.freeShippingThreshold ? 0 : Self.flatShipping
+    }
+
+    var bagTotal: Double { bagSubtotal - bagDiscount + bagShipping }
+
+    /// Turns the bag into an order and empties the bag. Checkout is simulated: no payment is taken.
+    @discardableResult
+    func placeOrder(shipToName: String, shipToAddress: String, paymentSummary: String) -> Order? {
+        let lines: [OrderLine] = bag.compactMap { item in
+            guard let product = Catalog.product(item.productID) else { return nil }
+            let shade = product.shades.indices.contains(item.shadeIndex)
+                ? product.shades[item.shadeIndex] : product.shades[0]
+            return OrderLine(productID: product.id, brand: product.brand, name: product.cardName,
+                             shadeName: shade.name, unitPrice: product.price, quantity: item.quantity)
+        }
+        guard !lines.isEmpty else { return nil }
+
+        // Work out the money before the bag is emptied and orders changes.
+        let order = Order(
+            number: "MYL-\(Int.random(in: 100_000...999_999))",
+            date: Date(),
+            lines: lines,
+            subtotal: bagSubtotal,
+            discount: bagDiscount,
+            shipping: bagShipping,
+            total: bagTotal,
+            shipToName: shipToName,
+            shipToAddress: shipToAddress,
+            paymentSummary: paymentSummary
+        )
+        orders.insert(order, at: 0)
+        bag = []
+        SoundEffects.shared.play(.addToBag)
+        return order
     }
 
     // MARK: - Owned products & recents
@@ -257,6 +309,8 @@ final class AppStore {
         var savedLookIDs: [String]
         var savedTutorialIDs: [String]
         var bag: [BagItem]
+        /// Optional so state saved before orders existed still loads.
+        var orders: [Order]?
         var recentProductIDs: [String]
         var settings: AppSettings
     }
@@ -266,7 +320,7 @@ final class AppStore {
         let snapshot = Snapshot(
             phase: phase, profile: profile, savedProductIDs: savedProductIDs,
             savedLookIDs: savedLookIDs, savedTutorialIDs: savedTutorialIDs, bag: bag,
-            recentProductIDs: recentProductIDs, settings: settings
+            orders: orders, recentProductIDs: recentProductIDs, settings: settings
         )
         if let data = try? JSONEncoder().encode(snapshot) {
             UserDefaults.standard.set(data, forKey: Self.storageKey)
@@ -285,6 +339,7 @@ final class AppStore {
         savedLookIDs = snapshot.savedLookIDs
         savedTutorialIDs = snapshot.savedTutorialIDs
         bag = snapshot.bag
+        orders = snapshot.orders ?? []
         recentProductIDs = snapshot.recentProductIDs
         settings = snapshot.settings
     }
