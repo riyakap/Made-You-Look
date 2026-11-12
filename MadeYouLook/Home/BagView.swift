@@ -3,9 +3,7 @@ import SwiftUI
 struct BagView: View {
     @Environment(AppStore.self) private var store
     @State private var showingCheckout = false
-
-    /// First-order discount promised on the sign-up screen.
-    private var discount: Double { (store.bagSubtotal * 0.10 * 100).rounded() / 100 }
+    @State private var webLink: WebLink?
 
     var body: some View {
         Group {
@@ -26,8 +24,11 @@ struct BagView: View {
 
                     Section {
                         summaryRow("Subtotal", Product.formatPrice(store.bagSubtotal))
-                        summaryRow("First order (10% off)", "−" + Product.formatPrice(discount))
-                        summaryRow("Total", Product.formatPrice(store.bagSubtotal - discount), bold: true)
+                        if store.bagDiscount > 0 {
+                            summaryRow("First order (10% off)", "−" + Product.formatPrice(store.bagDiscount))
+                        }
+                        summaryRow("Shipping", store.bagShipping == 0 ? "Free" : Product.formatPrice(store.bagShipping))
+                        summaryRow("Total", Product.formatPrice(store.bagTotal), bold: true)
                     }
                     .listRowBackground(Theme.surface)
 
@@ -37,6 +38,31 @@ struct BagView: View {
                             .listRowBackground(Color.clear)
                             .listRowInsets(EdgeInsets())
                     }
+
+                    // Real purchases happen at the retailer; these links open each product there.
+                    Section {
+                        ForEach(store.bag) { item in
+                            if let product = Catalog.product(item.productID) {
+                                Button {
+                                    webLink = WebLink(url: product.buyLink)
+                                } label: {
+                                    HStack {
+                                        Text("\(product.brand) \(product.cardName)").lineLimit(1)
+                                        Spacer()
+                                        Text(product.retailerName).foregroundStyle(Theme.primary)
+                                        Image(systemName: "arrow.up.right").foregroundStyle(Theme.primary)
+                                    }
+                                    .font(Theme.body(14))
+                                    .foregroundStyle(Theme.ink)
+                                }
+                            }
+                        }
+                    } header: {
+                        Text("Ready to buy for real?")
+                    } footer: {
+                        Text("These open the product at the retailer, where you can pay. Prices there may differ from the ones shown here.")
+                    }
+                    .listRowBackground(Theme.surface)
                 }
                 .scrollContentBackground(.hidden)
             }
@@ -44,10 +70,19 @@ struct BagView: View {
         .appBackground()
         .navigationTitle("My Bag")
         .navigationBarTitleDisplayMode(.inline)
-        .alert("Demo checkout", isPresented: $showingCheckout) {
-            Button("OK", role: .cancel) {}
-        } message: {
-            Text("Checkout isn't connected to a store in this prototype. Your bag stays saved.")
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                NavigationLink(value: Route.orders) {
+                    Image(systemName: "shippingbox")
+                }
+                .accessibilityLabel("My orders")
+            }
+        }
+        .sheet(isPresented: $showingCheckout) {
+            CheckoutView()
+        }
+        .fullScreenCover(item: $webLink) { link in
+            SafariView(url: link.url).ignoresSafeArea()
         }
     }
 
