@@ -3,6 +3,7 @@ import SwiftUI
 /// "Initial Launch" frame: full-bleed product photo, wordmark, Get Started.
 struct WelcomeView: View {
     @Environment(AppStore.self) private var store
+    @State private var showingSignIn = false
 
     var body: some View {
         ZStack {
@@ -30,7 +31,7 @@ struct WelcomeView: View {
 
                 HStack(spacing: 4) {
                     Text("Already have an account?")
-                    Button("Sign In") { store.signIn() }
+                    Button("Sign In") { showingSignIn = true }
                         .fontWeight(.semibold)
                 }
                 .font(Theme.body(14))
@@ -39,6 +40,9 @@ struct WelcomeView: View {
                 .padding(.top, 8)
                 .padding(.bottom, 24)
             }
+        }
+        .sheet(isPresented: $showingSignIn) {
+            SignInView().presentationDetents([.large])
         }
     }
 
