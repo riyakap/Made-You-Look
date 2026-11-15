@@ -23,9 +23,10 @@ struct ExploreView: View {
                 }
 
                 LazyVStack(spacing: 20) {
-                    ForEach(looks) { look in
+                    ForEach(Array(looks.enumerated()), id: \.element.id) { index, look in
                         NavigationLink(value: Route.look(look.id)) {
                             LookCard(look: look)
+                                .tourTarget(index == 0 ? "explore-look" : "")
                         }
                         .buttonStyle(.plain)
                     }

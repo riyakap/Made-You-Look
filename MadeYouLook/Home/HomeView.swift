@@ -26,7 +26,9 @@ struct HomeView: View {
                 } else {
                     banner
                     forYou
+                        .tourTarget("home-for-you")
                     looksYoullLove
+                        .tourTarget("home-looks")
                 }
             }
             .padding(.bottom, 24)

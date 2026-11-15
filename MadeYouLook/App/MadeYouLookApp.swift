@@ -118,5 +118,9 @@ struct MainTabView: View {
         .environment(\.symbolVariants, .none)
         .toolbarBackground(Theme.tabBar, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
+        .overlayPreferenceValue(TourTargetKey.self) { anchors in
+            TourOverlay(anchors: anchors)
+        }
+        .onAppear { store.startTourIfNeeded() }
     }
 }

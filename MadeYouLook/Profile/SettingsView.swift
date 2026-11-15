@@ -56,6 +56,12 @@ struct SettingsView: View {
                     NavigationLink { ResearchView() } label: {
                         SettingsRow(title: "How Recommendations Work")
                     }
+                    Button {
+                        store.replayTour()
+                        dismiss()
+                    } label: {
+                        SettingsRow(title: "Replay Tour")
+                    }
                     Toggle(isOn: $soundEffects) {
                         Text("Sound Effects").font(Theme.body(14))
                     }

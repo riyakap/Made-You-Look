@@ -9,7 +9,7 @@ final class AppStore {
         case welcome, onboarding, signUp, main
     }
 
-    enum Tab: Hashable {
+    enum Tab: Hashable, CaseIterable {
         case home, explore, saved, profile
     }
 
@@ -25,6 +25,11 @@ final class AppStore {
 
     /// Not persisted: which tab is showing.
     var selectedTab: Tab = .home
+
+    /// Index of the next tour tip to show. Equal to `TourTip.all.count` once the tour is finished.
+    var tourStep = 0 { didSet { save() } }
+    /// Not persisted: whether the tour overlay is on screen right now.
+    var showingTour = false
 
     private static let storageKey = "MadeYouLook.state.v1"
     private var isLoading = false
@@ -112,6 +117,47 @@ final class AppStore {
         recentProductIDs = []
         settings = AppSettings()
         selectedTab = .home
+        tourStep = 0
+        showingTour = false
+    }
+
+    // MARK: - Tour
+
+    var tourFinished: Bool { tourStep >= TourTip.all.count }
+
+    /// Runs the tour on the main screen if this account hasn't finished it.
+    /// Resumes at the saved step. Skipped when debug screens turn persistence off.
+    func startTourIfNeeded() {
+        guard persistenceEnabled, !tourFinished, !showingTour else { return }
+        showingTour = true
+        selectedTab = TourTip.all[tourStep].screen
+    }
+
+    /// "Replay Tour" in Settings: starts over from the first tip.
+    func replayTour() {
+        tourStep = 0
+        showingTour = true
+        selectedTab = TourTip.all[0].screen
+    }
+
+    func nextTourStep() {
+        tourStep += 1
+        if tourFinished {
+            showingTour = false
+        } else {
+            selectedTab = TourTip.all[tourStep].screen
+        }
+    }
+
+    func previousTourStep() {
+        guard tourStep > 0 else { return }
+        tourStep -= 1
+        selectedTab = TourTip.all[tourStep].screen
+    }
+
+    func skipTour() {
+        tourStep = TourTip.all.count
+        showingTour = false
     }
 
     private static func username(from name: String) -> String {
@@ -313,6 +359,8 @@ final class AppStore {
         var orders: [Order]?
         var recentProductIDs: [String]
         var settings: AppSettings
+        /// Optional so state saved before the tour existed still loads (treated as step 0).
+        var tourStep: Int?
     }
 
     private func save() {
@@ -320,7 +368,8 @@ final class AppStore {
         let snapshot = Snapshot(
             phase: phase, profile: profile, savedProductIDs: savedProductIDs,
             savedLookIDs: savedLookIDs, savedTutorialIDs: savedTutorialIDs, bag: bag,
-            orders: orders, recentProductIDs: recentProductIDs, settings: settings
+            orders: orders, recentProductIDs: recentProductIDs, settings: settings,
+            tourStep: tourStep
         )
         if let data = try? JSONEncoder().encode(snapshot) {
             UserDefaults.standard.set(data, forKey: Self.storageKey)
@@ -342,5 +391,6 @@ final class AppStore {
         orders = snapshot.orders ?? []
         recentProductIDs = snapshot.recentProductIDs
         settings = snapshot.settings
+        tourStep = snapshot.tourStep ?? 0
     }
 }

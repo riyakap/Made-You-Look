@@ -7,15 +7,18 @@ struct SavedView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                Text("Saved")
-                    .font(Theme.display(32))
-                    .foregroundStyle(Theme.ink)
-                    .padding(.horizontal, 20)
-                    .padding(.top, 24)
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Saved")
+                        .font(Theme.display(32))
+                        .foregroundStyle(Theme.ink)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 24)
 
-                ChipBar(items: [nil, .products, .looks, .tutorials], selection: $filter) {
-                    $0?.title ?? "All"
+                    ChipBar(items: [nil, .products, .looks, .tutorials], selection: $filter) {
+                        $0?.title ?? "All"
+                    }
                 }
+                .tourTarget("saved-filters")
 
                 if store.savedCount == 0 {
                     EmptyStateView(symbol: "heart", title: "Nothing saved yet", message: "Tap the heart on products and looks to keep them here.")

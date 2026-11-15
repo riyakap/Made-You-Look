@@ -74,6 +74,7 @@ struct ProfileView: View {
             }
             NavigationLink(value: Route.bag) {
                 StatBox(symbol: "bag", value: store.bagCount, label: "In my bag")
+                    .tourTarget("profile-bag")
             }
             NavigationLink(value: Route.ownedProducts) {
                 StatBox(symbol: "eyedropper.halffull", value: store.profile.ownedProductIDs.count, label: "My products")
