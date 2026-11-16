@@ -4,6 +4,7 @@ import SwiftUI
 struct WelcomeView: View {
     @Environment(AppStore.self) private var store
     @State private var showingSignIn = false
+    @State private var confirmingStartOver = false
 
     var body: some View {
         ZStack {
@@ -19,7 +20,8 @@ struct WelcomeView: View {
                     .foregroundStyle(Theme.ink.opacity(0.8))
                 Spacer()
                 Button {
-                    store.startOnboarding()
+                    // Starting over replaces the saved account, so check first.
+                    if store.hasAccount { confirmingStartOver = true } else { store.startOnboarding() }
                 } label: {
                     HStack(spacing: 8) {
                         Text("Get Started")
@@ -43,6 +45,12 @@ struct WelcomeView: View {
         }
         .sheet(isPresented: $showingSignIn) {
             SignInView().presentationDetents([.large])
+        }
+        .alert("Start a new account?", isPresented: $confirmingStartOver) {
+            Button("Start over", role: .destructive) { store.startOnboarding() }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("An account is already saved on this device, and starting over replaces it. To keep it, tap Sign In instead.")
         }
     }
 
