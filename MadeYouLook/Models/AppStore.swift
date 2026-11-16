@@ -22,6 +22,8 @@ final class AppStore {
     var orders: [Order] = [] { didSet { save() } }
     var recentProductIDs: [String] = [] { didSet { save() } }
     var settings = AppSettings() { didSet { save() } }
+    /// When on, reopening the app goes straight to Home instead of the welcome screen.
+    var keepSignedIn = true { didSet { save() } }
 
     /// Not persisted: which tab is showing.
     var selectedTab: Tab = .home
@@ -37,9 +39,11 @@ final class AppStore {
     var persistenceEnabled = true
 
     init() {
+        AuthService.resetOnFreshInstall()
         #if DEBUG
         if ProcessInfo.processInfo.arguments.contains("-resetState") {
             UserDefaults.standard.removeObject(forKey: Self.storageKey)
+            AuthService.removeAccount()
         }
         #endif
         load()
@@ -51,19 +55,58 @@ final class AppStore {
         phase = .signUp
     }
 
-    func signUp(name: String, email: String, via provider: String? = nil) {
-        let trimmed = name.trimmingCharacters(in: .whitespaces)
+    var hasAccount: Bool { !profile.name.isEmpty }
+
+    /// Creates the account (email + password, or a simulated Google / Apple sign-up), saves the
+    /// login on this device and signs in. Throws an `AuthError` with a message to show.
+    func createAccount(name: String, email: String, password: String?,
+                       provider: AuthProvider, keepSignedIn keep: Bool) throws {
+        let trimmed = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        if provider == .email && trimmed.isEmpty { throw AuthError.missingName }
+
+        try AuthService.register(email: email, password: password, provider: provider)
+
         profile.name = trimmed.isEmpty ? "Beauty Lover" : trimmed
         profile.username = Self.username(from: profile.name)
-        profile.email = email
-        if provider == "Google" { settings.googleConnected = true }
-        if provider == "Apple" { settings.appleConnected = true }
+        profile.email = AuthService.normalized(email)
+        settings.googleConnected = provider == .google
+        settings.appleConnected = provider == .apple
+        keepSignedIn = keep
         selectedTab = .home
         phase = .main
     }
 
-    /// "Sign In" is mocked: it loads the demo account from the Figma prototype.
+    /// Email + password sign-in against the account saved on this device.
+    func signIn(email: String, password: String, keepSignedIn keep: Bool) throws {
+        try AuthService.verify(email: email, password: password)
+        completeSignIn(keep: keep)
+    }
+
+    /// Google / Apple sign-in (simulated) against the account saved on this device.
+    func signIn(with provider: AuthProvider, email: String, keepSignedIn keep: Bool) throws {
+        try AuthService.verify(email: email, provider: provider)
+        completeSignIn(keep: keep)
+    }
+
+    private func completeSignIn(keep: Bool) {
+        // The profile can be empty if only the login survived; rebuild a minimal one.
+        if profile.name.isEmpty, let account = AuthService.account {
+            profile.name = "Beauty Lover"
+            profile.username = Self.username(from: profile.name)
+            profile.email = account.email
+        }
+        keepSignedIn = keep
+        selectedTab = .home
+        phase = .main
+    }
+
+    /// Loads the demo account from the Figma prototype. It replaces any account on this device.
     func signInDemo() {
+        AuthService.removeAccount()
+        bag = []
+        orders = []
+        recentProductIDs = []
+        settings = AppSettings()
         profile = UserProfile(
             name: "Asmitha",
             username: "asmithachunchu",
@@ -79,31 +122,29 @@ final class AppStore {
         savedProductIDs = ["elf-halo-glow", "rare-soft-pinch", "mario-surrealskin"]
         savedLookIDs = ["everyday-glow", "date-night"]
         savedTutorialIDs = ["everyday-natural", "bronzed-summer"]
+        keepSignedIn = false
         selectedTab = .home
         phase = .main
     }
 
-    /// "Sign In" on the welcome screen: resume the saved account if there is one,
-    /// otherwise load the demo account. (Sign-in is mocked; there is no password.)
-    func signIn() {
-        if hasAccount {
-            selectedTab = .home
-            phase = .main
-        } else {
-            signInDemo()
-        }
-    }
-
-    var hasAccount: Bool { !profile.name.isEmpty }
-
-    /// "Get Started" begins a fresh account through the quiz.
+    /// "Get Started" begins a fresh account through the quiz. It replaces any saved account.
     func startOnboarding() {
         clearUserData()
+        AuthService.removeAccount()
+        keepSignedIn = true
         phase = .onboarding
     }
 
-    func logOut() {
-        clearUserData()
+    /// Ends the session. The account and saved items stay so the person can sign back in.
+    /// With `erase`, everything on this device is removed too, including the saved login.
+    func logOut(erase: Bool = false) {
+        if erase {
+            clearUserData()
+            AuthService.removeAccount()
+        }
+        keepSignedIn = false
+        showingTour = false
+        selectedTab = .home
         phase = .welcome
     }
 
@@ -361,6 +402,8 @@ final class AppStore {
         var settings: AppSettings
         /// Optional so state saved before the tour existed still loads (treated as step 0).
         var tourStep: Int?
+        /// Optional so state saved before this existed still loads.
+        var keepSignedIn: Bool?
     }
 
     private func save() {
@@ -369,7 +412,7 @@ final class AppStore {
             phase: phase, profile: profile, savedProductIDs: savedProductIDs,
             savedLookIDs: savedLookIDs, savedTutorialIDs: savedTutorialIDs, bag: bag,
             orders: orders, recentProductIDs: recentProductIDs, settings: settings,
-            tourStep: tourStep
+            tourStep: tourStep, keepSignedIn: keepSignedIn
         )
         if let data = try? JSONEncoder().encode(snapshot) {
             UserDefaults.standard.set(data, forKey: Self.storageKey)
@@ -381,8 +424,11 @@ final class AppStore {
               let snapshot = try? JSONDecoder().decode(Snapshot.self, from: data) else { return }
         isLoading = true
         defer { isLoading = false }
-        // Every launch starts on the welcome screen, matching the prototype's "Initial Launch".
-        phase = .welcome
+        // Signed in with "Keep me signed in" on: reopen straight to Home.
+        // Otherwise start on the welcome screen, like the prototype's "Initial Launch".
+        let keep = snapshot.keepSignedIn ?? false
+        keepSignedIn = keep
+        phase = (keep && snapshot.phase == .main && !snapshot.profile.name.isEmpty) ? .main : .welcome
         profile = snapshot.profile
         savedProductIDs = snapshot.savedProductIDs
         savedLookIDs = snapshot.savedLookIDs
