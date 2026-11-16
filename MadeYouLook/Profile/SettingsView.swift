@@ -85,9 +85,10 @@ struct SettingsView: View {
         .appBackground()
         .toolbar(.hidden, for: .navigationBar)
         .confirmationDialog("Log out of Made You Look?", isPresented: $confirmingLogout, titleVisibility: .visible) {
-            Button("Logout", role: .destructive) { store.logOut() }
+            Button("Log out") { store.logOut() }
+            Button("Log out and erase everything", role: .destructive) { store.logOut(erase: true) }
         } message: {
-            Text("Your saved items and bag on this device will be cleared.")
+            Text("Logging out keeps your account and saved items so you can sign back in. Erasing removes them from this device.")
         }
         .onChange(of: photoItem) { _, item in
             Task { await loadPhoto(item) }
